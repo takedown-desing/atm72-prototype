@@ -1,0 +1,2168 @@
+{
+ "date": "2026-09-15",
+ "note": "Страницы из ТОП-10 по головным запросам каждого направления (Arsenkin check-top, все 310 запросов), с которых сняты полные скриншоты; фрагменты в screenshots/competitors",
+ "pages": [
+  {
+   "id": "t_co_ru_category_robotizirovannaya_tekhnika",
+   "url": "https://t-co.ru/category/robotizirovannaya-tekhnika/",
+   "niche": "Роботы",
+   "domain": "t-co.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "id": "interid_ru_robots",
+   "url": "https://interid.ru/robots",
+   "niche": "Роботы",
+   "domain": "interid.ru",
+   "type": "serp",
+   "q": "робот уборщик промышленный",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "cleantec_ru_catalog_polomoechnye_mashiny_polomoechnye_robot",
+   "url": "https://cleantec.ru/catalog/polomoechnye_mashiny/polomoechnye_roboty/r2b_mark_2/",
+   "niche": "Роботы",
+   "domain": "cleantec.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "cleantec_ru_catalog_polomoechnye_mashiny_polomoechnye_robot",
+   "url": "https://cleantec.ru/catalog/polomoechnye_mashiny/polomoechnye_roboty/",
+   "niche": "Роботы",
+   "domain": "cleantec.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "id": "interid_ru_kupit_44521",
+   "url": "https://interid.ru/kupit/44521",
+   "niche": "Роботы",
+   "domain": "interid.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "robort_ru_product_roboty_uborshchiky",
+   "url": "https://robort.ru/product/roboty-uborshchiky/",
+   "niche": "Роботы",
+   "domain": "robort.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "ya_tmn",
+   "pos": 2
+  },
+  {
+   "id": "tsday_ru_polomoiki",
+   "url": "https://tsday.ru/polomoiki/",
+   "niche": "Роботы",
+   "domain": "tsday.ru",
+   "type": "serp",
+   "q": "робот уборщик промышленный",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "qubot_ru_catalog_servisnyye_roboty_robot_uborshchik_keenon",
+   "url": "https://qubot.ru/catalog/servisnyye-roboty/robot-uborshchik-keenon-c40",
+   "niche": "Роботы",
+   "domain": "qubot.ru",
+   "type": "serp",
+   "q": "keenon c40",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "karex_ru_catalog_products_roboty",
+   "url": "https://karex.ru/catalog/products/roboty/",
+   "niche": "Роботы",
+   "domain": "karex.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "scrubtec_ru_products_polomoechnyi_robot_wimsha_t1",
+   "url": "https://scrubtec.ru/products/polomoechnyi-robot-wimsha-t1",
+   "niche": "Роботы",
+   "domain": "scrubtec.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "ya_tmn",
+   "pos": 2
+  },
+  {
+   "id": "robort_ru_product_seriya_kleenbot_robot_uborshchik_keenon_k",
+   "url": "https://robort.ru/product/seriya-kleenbot/robot-uborshchik-keenon-kleenbot-c40/",
+   "niche": "Роботы",
+   "domain": "robort.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "pudurobots_ru_cleaning",
+   "url": "https://pudurobots.ru/cleaning",
+   "niche": "Роботы",
+   "domain": "pudurobots.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "id": "master_chistoty_ru_catalog_uborochnye_roboty",
+   "url": "https://master-chistoty.ru/catalog/uborochnye-roboty/",
+   "niche": "Роботы",
+   "domain": "master-chistoty.ru",
+   "type": "serp",
+   "q": "робот уборщик промышленный",
+   "eng": "ya_tmn",
+   "pos": 3
+  },
+  {
+   "id": "karex_ru_catalog_products_pudu_cc1_dlya_uborki_pomeshcheniy",
+   "url": "https://karex.ru/catalog/products/pudu_cc1_dlya_uborki_pomeshcheniy/",
+   "niche": "Роботы",
+   "domain": "karex.ru",
+   "type": "serp",
+   "q": "pudu cc1",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "popclean_ru_category_polomoechnye_roboty",
+   "url": "https://popclean.ru/category/polomoechnye-roboty/",
+   "niche": "Роботы",
+   "domain": "popclean.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "id": "dortone_ru_catalog_kliningovoe_oborudovanie_robot_pylesos",
+   "url": "https://dortone.ru/catalog/kliningovoe_oborudovanie/robot_pylesos/",
+   "niche": "Роботы",
+   "domain": "dortone.ru",
+   "type": "serp",
+   "q": "робот уборщик помещений купить",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "id": "kiit_ru_katalog_kliningovoe_oborudovanie_polomoechnye_mashi",
+   "url": "https://www.kiit.ru/katalog/kliningovoe-oborudovanie/polomoechnye-mashiny/roboty-dlya-klininga-i-uborki/",
+   "niche": "Роботы",
+   "domain": "kiit.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "texuborka_ru_category_roboty_uborshchiki",
+   "url": "https://texuborka.ru/category/roboty-uborshchiki/",
+   "niche": "Роботы",
+   "domain": "texuborka.ru",
+   "type": "serp",
+   "q": "робот уборщик промышленный",
+   "eng": "ya_tmn",
+   "pos": 4
+  },
+  {
+   "id": "futumag_ru_catalog_oboty_obotyuborshchiki_robot_uborshchi",
+   "url": "https://futumag.ru/catalog/Roboty/Robotyuborshchiki/robot_uborshchik_keenon_kleenbot_c40/",
+   "niche": "Роботы",
+   "domain": "futumag.ru",
+   "type": "serp",
+   "q": "keenon c40",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "spi_robotics_clients_site_filter_category_robot_uborshik",
+   "url": "https://spi-robotics.clients.site/filter-category/robot-uborshik",
+   "niche": "Роботы",
+   "domain": "spi-robotics.clients.site",
+   "type": "serp",
+   "q": "spi robotics робот уборщик цена",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "kiit_ru_product_professionalnyy_robot_uborshchik_zenobot",
+   "url": "https://www.kiit.ru/product/professionalnyy-robot-uborshchik-zenobot/",
+   "niche": "Роботы",
+   "domain": "kiit.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "astorpro_ru_catalog_roboty_uborshchiki",
+   "url": "https://astorpro.ru/catalog/roboty-uborshchiki/",
+   "niche": "Роботы",
+   "domain": "astorpro.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "prof_eqp_ru_robot_uborshchik_nubi_apexclean_x5",
+   "url": "https://prof-eqp.ru/robot-uborshchik-nubi-apexclean-x5/",
+   "niche": "Роботы",
+   "domain": "prof-eqp.ru",
+   "type": "serp",
+   "q": "робот уборщик для торговых центров",
+   "eng": "ya_tmn",
+   "pos": 5
+  },
+  {
+   "id": "allorobot_ru_products_robot_uborschik_pudu_cc1",
+   "url": "https://allorobot.ru/products/robot-uborschik-pudu-cc1",
+   "niche": "Роботы",
+   "domain": "allorobot.ru",
+   "type": "serp",
+   "q": "pudu cc1",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "ut_pro_ru_catalog_polomoechnye_mashiny_avtonomnye_polomoech",
+   "url": "https://ut-pro.ru/catalog/polomoechnye_mashiny/avtonomnye_polomoechnye_mashiny/",
+   "niche": "Роботы",
+   "domain": "ut-pro.ru",
+   "type": "serp",
+   "q": "поломоечный робот",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "robot_rssib_ru_cleaners",
+   "url": "https://robot.rssib.ru/cleaners",
+   "niche": "Роботы",
+   "domain": "robot.rssib.ru",
+   "type": "serp",
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 6
+  },
+  {
+   "id": "tsday_ru_vnedrenie_promyshlennyh_polomoek_tproduct_87997809",
+   "url": "https://tsday.ru/vnedrenie-promyshlennyh-polomoek/tproduct/879978091332-promishlennii-robot-uborschik-tscb10",
+   "niche": "Роботы",
+   "domain": "tsday.ru",
+   "type": "serp",
+   "q": "робот уборщик промышленный",
+   "eng": "ya_tmn",
+   "pos": 6
+  },
+  {
+   "id": "servplus_ru_equipment_roboty_uborshiki",
+   "url": "https://www.servplus.ru/equipment/roboty_uborshiki/",
+   "niche": "Роботы",
+   "domain": "servplus.ru",
+   "type": "serp",
+   "q": "робот уборщик для торговых центров",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "id": "filpan_ru_zapravka_kartridzhej_v_moskve",
+   "url": "https://www.filpan.ru/zapravka-kartridzhej-v-moskve",
+   "niche": "Картриджи",
+   "domain": "filpan.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "copywin_ru",
+   "url": "https://copywin.ru/",
+   "niche": "Картриджи",
+   "domain": "copywin.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "mega_zapravka_ru",
+   "url": "https://mega-zapravka.ru/",
+   "niche": "Картриджи",
+   "domain": "mega-zapravka.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "filpan_ru",
+   "url": "https://www.filpan.ru/",
+   "niche": "Картриджи",
+   "domain": "filpan.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "dr_printer_ru_refilling_cartridges_hp",
+   "url": "https://www.dr-printer.ru/refilling-cartridges-hp",
+   "niche": "Картриджи",
+   "domain": "dr-printer.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "complace_ru_zapravka_kartridzhej",
+   "url": "https://www.complace.ru/zapravka-kartridzhej/",
+   "niche": "Картриджи",
+   "domain": "complace.ru",
+   "type": "serp",
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "zapravka72_ru",
+   "url": "http://www.zapravka72.ru/",
+   "niche": "Картриджи",
+   "domain": "zapravka72.ru",
+   "type": "serp",
+   "q": "заправка картриджей в тюмени",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "copygroup_ru",
+   "url": "https://www.copygroup.ru/",
+   "niche": "Картриджи",
+   "domain": "copygroup.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "copywin_ru_zapravka_cartridgey_hp",
+   "url": "https://copywin.ru/zapravka_cartridgey/hp",
+   "niche": "Картриджи",
+   "domain": "copywin.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "zapravkaprinter_ru_product_category_zapravka_hp",
+   "url": "https://zapravkaprinter.ru/product-category/zapravka/hp/",
+   "niche": "Картриджи",
+   "domain": "zapravkaprinter.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "id": "oncopy_ru",
+   "url": "https://oncopy.ru/",
+   "niche": "Картриджи",
+   "domain": "oncopy.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "a_avalon_ru",
+   "url": "https://www.a-avalon.ru/",
+   "niche": "Картриджи",
+   "domain": "a-avalon.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "maxmaster_msk_ru",
+   "url": "https://maxmaster-msk.ru/",
+   "niche": "Картриджи",
+   "domain": "maxmaster-msk.ru",
+   "type": "serp",
+   "q": "заправка картриджей для принтера",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "megacartridge_ru_zapravka_kartridzhey_hp",
+   "url": "https://megacartridge.ru/zapravka-kartridzhey/hp/",
+   "niche": "Картриджи",
+   "domain": "megacartridge.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "leffargen_ru_zapravka_kartridzhey_dlya_lazernykh_printerov",
+   "url": "https://leffargen.ru/zapravka-kartridzhey-dlya-lazernykh-printerov",
+   "niche": "Картриджи",
+   "domain": "leffargen.ru",
+   "type": "serp",
+   "q": "стоимость заправки картриджа для лазерного принтера",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "mega_zapravka_ru_refill_monohrome_pantum",
+   "url": "https://mega-zapravka.ru/refill/monohrome/pantum/",
+   "niche": "Картриджи",
+   "domain": "mega-zapravka.ru",
+   "type": "serp",
+   "q": "заправка картриджа pantum",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "monline_ru_zapravka_kartridzha_pantum_p2200_p2500_m6500_m65",
+   "url": "https://monline.ru/zapravka-kartridzha-pantum-p2200-p2500-m6500-m6550-m6600-pc-211rb-16k-byez-zameny-chipa-1/",
+   "niche": "Картриджи",
+   "domain": "monline.ru",
+   "type": "serp",
+   "q": "заправка картриджа pantum",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "re_center_ru_zapravka_kartridzhej_zapravka_kartridzhej_cano",
+   "url": "https://re-center.ru/zapravka-kartridzhej/zapravka-kartridzhej-canon",
+   "niche": "Картриджи",
+   "domain": "re-center.ru",
+   "type": "serp",
+   "q": "заправка картриджа canon",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "a_avalon_ru_pricelist",
+   "url": "https://www.a-avalon.ru/pricelist/",
+   "niche": "Картриджи",
+   "domain": "a-avalon.ru",
+   "type": "serp",
+   "q": "прайс лист заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "oncopy_ru_zapravka_kartridzhey_hp",
+   "url": "https://oncopy.ru/zapravka-kartridzhey/hp/",
+   "niche": "Картриджи",
+   "domain": "oncopy.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "id": "singer_computer_ru_preyskurant_na_zapravku_kartridzhey",
+   "url": "https://singer-computer.ru/preyskurant_na_zapravku_kartridzhey",
+   "niche": "Картриджи",
+   "domain": "singer-computer.ru",
+   "type": "serp",
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "g_msk",
+   "pos": 6
+  },
+  {
+   "id": "zapravka_format_it_net",
+   "url": "http://zapravka.format-it.net/",
+   "niche": "Картриджи",
+   "domain": "zapravka.format-it.net",
+   "type": "serp",
+   "q": "заправка картриджей в тюмени",
+   "eng": "g_msk",
+   "pos": 6
+  },
+  {
+   "id": "dr_printer_ru",
+   "url": "https://www.dr-printer.ru/",
+   "niche": "Картриджи",
+   "domain": "dr-printer.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "id": "tumen_service_centers_ru_services_cartridges_hp",
+   "url": "https://tumen.service-centers.ru/services/cartridges/hp",
+   "niche": "Картриджи",
+   "domain": "tumen.service-centers.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "ya_tmn",
+   "pos": 7
+  },
+  {
+   "id": "ivm_ru_product_category_zapravka_kartridzhej_hp",
+   "url": "https://ivm.ru/product-category/zapravka-kartridzhej-hp/",
+   "niche": "Картриджи",
+   "domain": "ivm.ru",
+   "type": "serp",
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "id": "megacartridge_ru_price",
+   "url": "https://megacartridge.ru/price/",
+   "niche": "Картриджи",
+   "domain": "megacartridge.ru",
+   "type": "serp",
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "id": "al_kart_ru_zapravka_kartridjey_dlya_lazernogo_printera",
+   "url": "https://al-kart.ru/zapravka-kartridjey-dlya-lazernogo-printera",
+   "niche": "Картриджи",
+   "domain": "al-kart.ru",
+   "type": "serp",
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "id": "kts_samara_ru_zapravit_kartridzh_pantum_p2200_p2207_p2500",
+   "url": "https://www.kts-samara.ru/zapravit-kartridzh-pantum-p2200-p2207-p2500/",
+   "niche": "Картриджи",
+   "domain": "kts-samara.ru",
+   "type": "serp",
+   "q": "заправка картриджа pantum",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "id": "ledmovie_ru_prozrachnyy_ekran",
+   "url": "https://ledmovie.ru/prozrachnyy-ekran/",
+   "niche": "LED-плёнки",
+   "domain": "ledmovie.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "svetecran_com_prozrachnye_ekrany",
+   "url": "https://svetecran.com/prozrachnye-ekrany",
+   "niche": "LED-плёнки",
+   "domain": "svetecran.com",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "id": "led_si_com_produktsiya_prozrachnye_led_ekrany",
+   "url": "https://led-si.com/produktsiya/prozrachnye-led-ekrany",
+   "niche": "LED-плёнки",
+   "domain": "led-si.com",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "ledcapital_ru_prozrachniy",
+   "url": "https://ledcapital.ru/prozrachniy/",
+   "niche": "LED-плёнки",
+   "domain": "ledcapital.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "gtlamp_ru_produkciya_svetodiodnyj_plenochnyj_ekran_html",
+   "url": "https://www.gtlamp.ru/produkciya/svetodiodnyj-plenochnyj-ekran.html",
+   "niche": "LED-плёнки",
+   "domain": "gtlamp.ru",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "ekranpro_ru_catalog_plenochnyj_svetodiodnyj_ekran",
+   "url": "https://ekranpro.ru/catalog/plenochnyj-svetodiodnyj-ekran/",
+   "niche": "LED-плёнки",
+   "domain": "ekranpro.ru",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "p10_ru_category_prozrachnie_led_ekrani",
+   "url": "https://p10.ru/category/prozrachnie-led-ekrani/",
+   "niche": "LED-плёнки",
+   "domain": "p10.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "future_vision_ru_prozrachnye_svetodiodnye_ekrany_1",
+   "url": "https://future-vision.ru/prozrachnye-svetodiodnye-ekrany-1/",
+   "niche": "LED-плёнки",
+   "domain": "future-vision.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "i_tec_ru_prozrachnie_svettodiodnie_ekrani_html",
+   "url": "https://i-tec.ru/prozrachnie-svettodiodnie-ekrani.html",
+   "niche": "LED-плёнки",
+   "domain": "i-tec.ru",
+   "type": "serp",
+   "q": "прозрачный светодиодный экран",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "ledplenka_ru",
+   "url": "https://ledplenka.ru/",
+   "niche": "LED-плёнки",
+   "domain": "ledplenka.ru",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "id": "detectorgroup_ru_katalog_prozrachnye_led_ekrany",
+   "url": "https://detectorgroup.ru/katalog/prozrachnye-led-ekrany/",
+   "niche": "LED-плёнки",
+   "domain": "detectorgroup.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "id": "promt_su_catalog_svetodiodnye_yekrany_prozrachnye_yekrany",
+   "url": "https://promt.su/catalog/svetodiodnye-yekrany/prozrachnye-yekrany/",
+   "niche": "LED-плёнки",
+   "domain": "promt.su",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_tmn",
+   "pos": 6
+  },
+  {
+   "id": "media_led_ru_product_prozrachnye_led_ekrany",
+   "url": "https://media-led.ru/product/prozrachnye-led-ekrany/",
+   "niche": "LED-плёнки",
+   "domain": "media-led.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "g_msk",
+   "pos": 6
+  },
+  {
+   "id": "avto96_ru_product_led_beguschaya_stroka_malenkaya",
+   "url": "https://avto96.ru/product/led-beguschaya-stroka-malenkaya",
+   "niche": "LED-плёнки",
+   "domain": "avto96.ru",
+   "type": "serp",
+   "q": "гибкая led пленка",
+   "eng": "ya_tmn",
+   "pos": 6
+  },
+  {
+   "id": "pro_toplight_com_ru_product_flexible_transparent_led_screen",
+   "url": "https://www.pro-toplight.com/ru/product/flexible-transparent-led-screen/",
+   "niche": "LED-плёнки",
+   "domain": "pro-toplight.com",
+   "type": "serp",
+   "q": "гибкая led пленка",
+   "eng": "g_msk",
+   "pos": 6
+  },
+  {
+   "id": "svetecran_com_led_plenka",
+   "url": "https://svetecran.com/led-plenka",
+   "niche": "LED-плёнки",
+   "domain": "svetecran.com",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "id": "igobopro_ru_catalog_svetodiodnaya_gibkaya_led_plenka_tonkay",
+   "url": "https://www.igobopro.ru/catalog/svetodiodnaya-gibkaya-led-plenka-tonkaya/",
+   "niche": "LED-плёнки",
+   "domain": "igobopro.ru",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "ya_tmn",
+   "pos": 7
+  },
+  {
+   "id": "ledmediagroup_ru_catalog_prozrachnye_ehkrany",
+   "url": "https://ledmediagroup.ru/catalog/prozrachnye-ehkrany/",
+   "niche": "LED-плёнки",
+   "domain": "ledmediagroup.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "id": "multiroom_xyz_categories_prozrachnye_svetodiodnye_ekrany_pl",
+   "url": "https://multiroom.xyz/categories/prozrachnye-svetodiodnye-ekrany-plenka",
+   "niche": "LED-плёнки",
+   "domain": "multiroom.xyz",
+   "type": "serp",
+   "q": "led пленка купить",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "id": "privateglass_ru_catalog_smart_plenka",
+   "url": "https://privateglass.ru/catalog/smart_plenka/",
+   "niche": "LED-плёнки",
+   "domain": "privateglass.ru",
+   "type": "serp",
+   "q": "светодиодная пленка на стекло",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "id": "led_sk_ru_produkciya_81_prozrachnye_led_ekrany_html",
+   "url": "https://led-sk.ru/produkciya/81/prozrachnye-led-ekrany.html",
+   "niche": "LED-плёнки",
+   "domain": "led-sk.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 8
+  },
+  {
+   "id": "telaled_com_ru_pelicula_de_led_para_vidro",
+   "url": "https://www.telaled.com/ru/pelicula-de-led-para-vidro/",
+   "niche": "LED-плёнки",
+   "domain": "telaled.com",
+   "type": "serp",
+   "q": "led пленка на стекло",
+   "eng": "g_msk",
+   "pos": 8
+  },
+  {
+   "id": "ledpremium_ru_catalog_gibkiy_neon",
+   "url": "https://ledpremium.ru/catalog/gibkiy_neon/",
+   "niche": "LED-плёнки",
+   "domain": "ledpremium.ru",
+   "type": "serp",
+   "q": "гибкая led пленка",
+   "eng": "ya_msk",
+   "pos": 8
+  },
+  {
+   "id": "ymnoe_steklo_mosvka_ru_smart_plenka",
+   "url": "https://ymnoe-steklo-mosvka.ru/smart-plenka/",
+   "niche": "LED-плёнки",
+   "domain": "ymnoe-steklo-mosvka.ru",
+   "type": "serp",
+   "q": "светодиодная пленка на стекло",
+   "eng": "ya_msk",
+   "pos": 8
+  },
+  {
+   "id": "leddreamz_ru_catalog_gibkie_prozrachnye_svetodiodnyy_ekrany",
+   "url": "https://leddreamz.ru/catalog/gibkie_prozrachnye_svetodiodnyy_ekrany/",
+   "niche": "LED-плёнки",
+   "domain": "leddreamz.ru",
+   "type": "serp",
+   "q": "прозрачный светодиодный экран",
+   "eng": "ya_tmn",
+   "pos": 8
+  },
+  {
+   "id": "revinda_ru_cat1",
+   "url": "https://revinda.ru/cat1/",
+   "niche": "LED-плёнки",
+   "domain": "revinda.ru",
+   "type": "serp",
+   "q": "led пленка",
+   "eng": "ya_tmn",
+   "pos": 9
+  },
+  {
+   "id": "bigdisplay_ru_catalog_prozrachnye_svetodiodnye_ekrany",
+   "url": "https://bigdisplay.ru/catalog/prozrachnye-svetodiodnye-ekrany",
+   "niche": "LED-плёнки",
+   "domain": "bigdisplay.ru",
+   "type": "serp",
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 9
+  },
+  {
+   "id": "sklad_plenok_ru",
+   "url": "https://sklad-plenok.ru/",
+   "niche": "LED-плёнки",
+   "domain": "sklad-plenok.ru",
+   "type": "serp",
+   "q": "led пленка на стекло",
+   "eng": "ya_msk",
+   "pos": 9
+  },
+  {
+   "id": "mediacube_io",
+   "url": "https://mediacube.io/",
+   "niche": "Медиакубы",
+   "domain": "mediacube.io",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "exposign_ru_uslugi_art_obekty_reklamnye_kuby",
+   "url": "https://exposign.ru/uslugi/art-obekty/reklamnye-kuby/",
+   "niche": "Медиакубы",
+   "domain": "exposign.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "id": "signsystem_ru_art_obektyi_kubyi_s_podsvetkoy",
+   "url": "https://signsystem.ru/art-obektyi/kubyi-s-podsvetkoy/",
+   "niche": "Медиакубы",
+   "domain": "signsystem.ru",
+   "type": "serp",
+   "q": "светодиодный рекламный куб",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "id": "wp_art_ru_produktsiya_svetovye_koroba_kubiki_svet",
+   "url": "https://wp-art.ru/produktsiya/svetovye-koroba/kubiki-svet",
+   "niche": "Медиакубы",
+   "domain": "wp-art.ru",
+   "type": "serp",
+   "q": "световой рекламный куб",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "id": "mediacube_io_ru_about",
+   "url": "https://mediacube.io/ru/about",
+   "niche": "Медиакубы",
+   "domain": "mediacube.io",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "hollyshop_ru_catalog_brands_medicube",
+   "url": "https://hollyshop.ru/catalog/brands/medicube/",
+   "niche": "Медиакубы",
+   "domain": "hollyshop.ru",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "bigdisplay_ru_modul_led_kub",
+   "url": "https://bigdisplay.ru/modul/led-kub",
+   "niche": "Медиакубы",
+   "domain": "bigdisplay.ru",
+   "type": "serp",
+   "q": "светодиодный куб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "glowstore_ru_catalog_kuby",
+   "url": "https://glowstore.ru/catalog/kuby/",
+   "niche": "Медиакубы",
+   "domain": "glowstore.ru",
+   "type": "serp",
+   "q": "светодиодный куб",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "mospraz_ru_reklamnye_konstrukcii_reklamno_dekorativnye_kuby",
+   "url": "https://mospraz.ru/reklamnye-konstrukcii/reklamno-dekorativnye-kuby/",
+   "niche": "Медиакубы",
+   "domain": "mospraz.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "topviveski_ru_services_reklamniy_kub",
+   "url": "https://topviveski.ru/services/reklamniy-kub",
+   "niche": "Медиакубы",
+   "domain": "topviveski.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "id": "gtlamp_ru_3d_led_kub_dlya_torgovyh_centrov_i_prezentaciy_ht",
+   "url": "https://www.gtlamp.ru/3d-led-kub-dlya-torgovyh-centrov-i-prezentaciy.html",
+   "niche": "Медиакубы",
+   "domain": "gtlamp.ru",
+   "type": "serp",
+   "q": "светодиодный рекламный куб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "ledforms_com",
+   "url": "https://ledforms.com/",
+   "niche": "Медиакубы",
+   "domain": "ledforms.com",
+   "type": "serp",
+   "q": "световой рекламный куб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "id": "tyumen_adresnie_tablichki_ru_cat_reklamnyye_svetovyye_korob",
+   "url": "https://tyumen.adresnie-tablichki.ru/cat/reklamnyye-svetovyye-koroba-laytboks/",
+   "niche": "Медиакубы",
+   "domain": "tyumen.adresnie-tablichki.ru",
+   "type": "serp",
+   "q": "световой рекламный куб",
+   "eng": "ya_tmn",
+   "pos": 2
+  },
+  {
+   "id": "mediakub_net",
+   "url": "https://mediakub.net/",
+   "niche": "Медиакубы",
+   "domain": "mediakub.net",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "ediacube",
+   "url": "https://руни.рф/Mediacube",
+   "niche": "Медиакубы",
+   "domain": "руни.рф",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "ya_tmn",
+   "pos": 3
+  },
+  {
+   "id": "evroflag24_ru_product_reklamnye_kuby",
+   "url": "https://evroflag24.ru/product/reklamnye-kuby",
+   "niche": "Медиакубы",
+   "domain": "evroflag24.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "id": "prokat_i_arenda_ru_katalog_obemnye_kuby",
+   "url": "https://prokat-i-arenda.ru/katalog/obemnye-kuby/",
+   "niche": "Медиакубы",
+   "domain": "prokat-i-arenda.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "id": "timeout_ru_msk_place_36126",
+   "url": "https://www.timeout.ru/msk/place/36126",
+   "niche": "Медиакубы",
+   "domain": "timeout.ru",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "ledformula_ru_decor_light_ulichnyye_svetilniki_svetyaschies",
+   "url": "https://www.ledformula.ru/decor-light/ulichnyye-svetilniki/svetyaschiesya-led-kuby/napol-nye-svetyaschiesya-led-kuby-na-220v/",
+   "niche": "Медиакубы",
+   "domain": "ledformula.ru",
+   "type": "serp",
+   "q": "светодиодный куб",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "standline_ru_katalog_pos_materialy_obemnye_kuby_obemnye_kub",
+   "url": "https://standline.ru/katalog/pos-materialy/obemnye-kuby/obemnye-kuby-s-brendingom/",
+   "niche": "Медиакубы",
+   "domain": "standline.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "mospraz_ru_reklamnye_konstrukcii_reklamno_dekorativnye_kuby",
+   "url": "https://mospraz.ru/reklamnye-konstrukcii/reklamno-dekorativnye-kuby/gosudarstvennyh-i-municipalnyh-sluzhb/reklamno-dekorativnyj-kub-moskva/",
+   "niche": "Медиакубы",
+   "domain": "mospraz.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "ledformula_ru_svetodiodnyie_kubyi_i_sharyi_s_logotipom_vash",
+   "url": "https://www.ledformula.ru/svetodiodnyie-kubyi-i-sharyi-s-logotipom-vashey-kompanii",
+   "niche": "Медиакубы",
+   "domain": "ledformula.ru",
+   "type": "serp",
+   "q": "светодиодный рекламный куб",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "id": "ecranium_ru_product_kub",
+   "url": "https://ecranium.ru/product/kub",
+   "niche": "Медиакубы",
+   "domain": "ecranium.ru",
+   "type": "serp",
+   "q": "светодиодный рекламный куб",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "id": "stranaled_ru_category_svetodiodnye_ekrany_svetodiodnye_medi",
+   "url": "https://stranaled.ru/category/svetodiodnye-ekrany/svetodiodnye-mediakuby/",
+   "niche": "Медиакубы",
+   "domain": "stranaled.ru",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "detectorgroup_ru_katalog_svetodiodnye_resheniya_mediakuby",
+   "url": "https://detectorgroup.ru/katalog/svetodiodnye-resheniya/mediakuby/",
+   "niche": "Медиакубы",
+   "domain": "detectorgroup.ru",
+   "type": "serp",
+   "q": "медиакуб",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "epoi_ru_svetodiodnyy_performans_kub",
+   "url": "https://epoi.ru/svetodiodnyy-performans-kub/",
+   "niche": "Медиакубы",
+   "domain": "epoi.ru",
+   "type": "serp",
+   "q": "светодиодный куб",
+   "eng": "ya_tmn",
+   "pos": 5
+  },
+  {
+   "id": "alexgyver_ru_arduino_led_cube",
+   "url": "https://alexgyver.ru/arduino-led-cube/",
+   "niche": "Медиакубы",
+   "domain": "alexgyver.ru",
+   "type": "serp",
+   "q": "светодиодный куб",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "id": "signsystem_ru_art_obektyi_proizvodstvo_i_arenda_reklamnyih",
+   "url": "https://signsystem.ru/art-obektyi/proizvodstvo-i-arenda-reklamnyih-kubov/",
+   "niche": "Медиакубы",
+   "domain": "signsystem.ru",
+   "type": "serp",
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "id": "it_soft72_ru_zapravka",
+   "url": "https://it-soft72.ru/zapravka-kartridzhej/",
+   "niche": "Картриджи",
+   "domain": "it-soft72.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 9
+  },
+  {
+   "id": "axion72_ru",
+   "url": "https://axion72.ru/",
+   "niche": "Картриджи",
+   "domain": "axion72.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 10
+  },
+  {
+   "id": "printproservice_ru",
+   "url": "https://printproservice.ru/",
+   "niche": "Картриджи",
+   "domain": "printproservice.ru",
+   "type": "serp",
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 8
+  },
+  {
+   "id": "tmn_zapr5_ru",
+   "url": "https://tmn.zapr5.ru/zapravka-kartridzhej/",
+   "niche": "Картриджи",
+   "domain": "tmn.zapr5.ru",
+   "type": "serp",
+   "q": "заправка картриджей в тюмени",
+   "eng": "g_msk",
+   "pos": 9
+  },
+  {
+   "id": "korotron72_ru",
+   "url": "https://korotron72.ru/",
+   "niche": "Картриджи",
+   "domain": "korotron72.ru",
+   "type": "serp",
+   "q": "заправка картриджей для принтера",
+   "eng": "ya_tmn",
+   "pos": 10
+  },
+  {
+   "id": "print_itsupport72_ru",
+   "url": "https://print.itsupport72.ru/",
+   "niche": "Картриджи",
+   "domain": "print.itsupport72.ru",
+   "type": "serp",
+   "q": "заправка картриджей для принтера",
+   "eng": "ya_tmn",
+   "pos": 8
+  }
+ ],
+ "figures": [
+  {
+   "file": "screenshots/competitors/serp-karex-pudu-cc1.jpg",
+   "caption": "karex.ru, ТОП-3 Яндекс Москва по «pudu cc1»: карточка Pudu CC1 с ценой 1 970 000 ₽, «Заказать в 1 клик», официальная гарантия, табы «Описание, Характеристики, Магазины»",
+   "url": "https://karex.ru/catalog/products/pudu_cc1_dlya_uborki_pomeshcheniy/",
+   "domain": "karex.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "pudu cc1",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "file": "screenshots/competitors/serp-allorobot-pudu-cc1.jpg",
+   "caption": "allorobot.ru, ТОП-5 Яндекс Москва по «pudu cc1»: карточка Pudu CC1: цена 1 970 000 руб., «Купить», доставка, табы «Описание, Отзывы»",
+   "url": "https://allorobot.ru/products/robot-uborschik-pudu-cc1",
+   "domain": "allorobot.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "pudu cc1",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-qubot-keenon-c40.jpg",
+   "caption": "qubot.ru, ТОП-2 Яндекс Москва по «keenon c40»: карточка Keenon C40: цена 1 490 000 ₽, характеристики, «Сравнить», описание",
+   "url": "https://qubot.ru/catalog/servisnyye-roboty/robot-uborshchik-keenon-c40",
+   "domain": "qubot.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "keenon c40",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-tco-roboty.jpg",
+   "caption": "t-co.ru, ТОП-1 Google по «робот уборщик»: раздел роботов: фильтр по цене, бренду, ширине уборки, объёму бака, производительности; карточки с ценой 1 197 000 ₽ и «Оставить запрос»",
+   "url": "https://t-co.ru/category/robotizirovannaya-tekhnika/",
+   "domain": "t-co.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "file": "screenshots/competitors/serp-karex-roboty.jpg",
+   "caption": "karex.ru, ТОП-2 Яндекс Москва по «поломоечный робот»: «Поломоечные роботы»: фильтр по производительности, площади, баку и ширине, карточки Pudu CC1, MT1, SH1 с ценой",
+   "url": "https://karex.ru/catalog/products/roboty/",
+   "domain": "karex.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "поломоечный робот",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-interid-robots.jpg",
+   "caption": "interid.ru, ТОП-1 Яндекс Москва по «робот уборщик промышленный»: «Промышленные роботы»: категории плиткой, карточки с артикулом, характеристиками и ценой",
+   "url": "https://interid.ru/robots",
+   "domain": "interid.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик промышленный",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "file": "screenshots/competitors/serp-interid-product.jpg",
+   "caption": "interid.ru, ТОП-2 Яндекс Москва по «робот уборщик»: карточка робота Gausium: цена 1 355 166 ₽, характеристики, «Получить КП», доставка и оплата",
+   "url": "https://interid.ru/kupit/44521",
+   "domain": "interid.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-astorpro-roboty.jpg",
+   "caption": "astorpro.ru, ТОП-5 Google по «робот уборщик»: «Роботы уборщики»: фильтр по цене и производительности, карточки с характеристиками, наличием и ценой 1 562 000 ₽",
+   "url": "https://astorpro.ru/catalog/roboty-uborshchiki/",
+   "domain": "astorpro.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-kiit-roboty.jpg",
+   "caption": "kiit.ru, ТОП-4 Яндекс Москва по «робот уборщик»: «Роботы для клининга и уборки»: фильтр, бренды, цена «от», «Купить»",
+   "url": "https://www.kiit.ru/katalog/kliningovoe-oborudovanie/polomoechnye-mashiny/roboty-dlya-klininga-i-uborki/",
+   "domain": "kiit.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-kiit-zenobot.jpg",
+   "caption": "kiit.ru, ТОП-5 Яндекс Москва по «робот уборщик»: H1 с параметрами «650 м²/ч, подметание + пылесос + влажная уборка», цена от 1 380 000 ₽",
+   "url": "https://www.kiit.ru/product/professionalnyy-robot-uborshchik-zenobot/",
+   "domain": "kiit.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-texuborka-roboty.jpg",
+   "caption": "texuborka.ru, ТОП-4 Яндекс Тюмень по «робот уборщик промышленный»: карточки роботов с ценой и «В корзину», параметры под названием",
+   "url": "https://texuborka.ru/category/roboty-uborshchiki/",
+   "domain": "texuborka.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик промышленный",
+   "eng": "ya_tmn",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-pudurobots.jpg",
+   "caption": "pudurobots.ru, ТОП-3 Google по «робот уборщик»: «Роботизированные решения для уборки помещений», «№1», «Плюсы роботизации клининга: 24/7, 2000 м²»",
+   "url": "https://pudurobots.ru/cleaning",
+   "domain": "pudurobots.ru",
+   "niche": "Роботы",
+   "h": 1300,
+   "q": "робот уборщик",
+   "eng": "g_msk",
+   "pos": 3
+  },
+  {
+   "file": "screenshots/competitors/serp-scrubtec.jpg",
+   "caption": "scrubtec.ru, ТОП-2 Яндекс Тюмень по «поломоечный робот»: карточка робота: цена 1 530 000 руб., «Рассчитать стоимость доставки» ПЭК и СДЭК, бесплатный выезд инженера",
+   "url": "https://scrubtec.ru/products/polomoechnyi-robot-wimsha-t1",
+   "domain": "scrubtec.ru",
+   "niche": "Роботы",
+   "h": 1200,
+   "q": "поломоечный робот",
+   "eng": "ya_tmn",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-copywin-zapravka.jpg",
+   "caption": "copywin.ru, ТОП-2 Яндекс Москва по «заправка картриджей»: «Быстрое оформление заявки» на первом экране, режим работы, «Ремонт оргтехники» и «Заправка картриджей» блоками",
+   "url": "https://copywin.ru/",
+   "domain": "copywin.ru",
+   "niche": "Картриджи",
+   "h": 1200,
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-megacartridge-price.jpg",
+   "caption": "megacartridge.ru, ТОП-7 Яндекс Москва по «стоимость заправки картриджа для принтера»: страница цен: «Сколько стоит? 400-900 ₽. Когда сделаем? Сегодня или завтра. Оплата», форма заявки, логотипы брендов",
+   "url": "https://megacartridge.ru/price/",
+   "domain": "megacartridge.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-complace-zapravka.jpg",
+   "caption": "complace.ru, ТОП-2 Яндекс Москва по «стоимость заправки картриджа для принтера»: «Выгода заправки в Комплэйс» списком и «Стоимость заправки лазерных картриджей» с ценами",
+   "url": "https://www.complace.ru/zapravka-kartridzhej/",
+   "domain": "complace.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-oncopy-zapravka.jpg",
+   "caption": "oncopy.ru, ТОП-4 Яндекс Москва по «заправка картриджей»: плитка брендов «Заправка ч/б картриджей» и форма «Узнайте стоимость и сроки заправки картриджа»",
+   "url": "https://oncopy.ru/",
+   "domain": "oncopy.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-re-center-canon.jpg",
+   "caption": "re-center.ru, ТОП-5 Google по «заправка картриджа canon»: заправка Canon: «цена от 560 руб., ресурс, срок 25 минут, гарантия», форма заявки и «Этапы работ»",
+   "url": "https://re-center.ru/zapravka-kartridzhej/zapravka-kartridzhej-canon",
+   "domain": "re-center.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджа canon",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-mega-zapravka.jpg",
+   "caption": "mega-zapravka.ru, ТОП-2 Google по «заправка картриджей»: «Требуется заправить много картриджей? Оставьте запрос! Гарантия лучшей цены», категории услуг плиткой",
+   "url": "https://mega-zapravka.ru/",
+   "domain": "mega-zapravka.ru",
+   "niche": "Картриджи",
+   "h": 1200,
+   "q": "заправка картриджей",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-local.jpg",
+   "caption": "tumen.service-centers.ru, ТОП-7 Яндекс Тюмень по «заправка картриджа hp»: агрегатор сервисных центров Тюмени: список сервисов с ценами «от» и кнопками «Записаться» занимает место в ТОП-10",
+   "url": "https://tumen.service-centers.ru/services/cartridges/hp",
+   "domain": "tumen.service-centers.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджа hp",
+   "eng": "ya_tmn",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-dr-printer-hp.jpg",
+   "caption": "dr-printer.ru, ТОП-2 Google по «заправка картриджа hp»: заправка HP: таблица цен по каждой модели картриджа",
+   "url": "https://www.dr-printer.ru/refilling-cartridges-hp",
+   "domain": "dr-printer.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-megacartridge-hp.jpg",
+   "caption": "megacartridge.ru, ТОП-4 Google по «заправка картриджа hp»: заправка HP: прайс по каждому картриджу с ценой за 1 шт. и за партию",
+   "url": "https://megacartridge.ru/zapravka-kartridzhey/hp/",
+   "domain": "megacartridge.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджа hp",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-leffargen.jpg",
+   "caption": "leffargen.ru, ТОП-4 Яндекс Москва по «стоимость заправки картриджа для лазерного принтера»: «Гарантия на все виды работ до 1 года» на первом экране",
+   "url": "https://leffargen.ru/zapravka-kartridzhey-dlya-lazernykh-printerov",
+   "domain": "leffargen.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "стоимость заправки картриджа для лазерного принтера",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-al-kart.jpg",
+   "caption": "al-kart.ru, ТОП-7 Google по «стоимость заправки картриджа для принтера»: «Преимущества работы с нами» иконками и карточки картриджей с ценой",
+   "url": "https://al-kart.ru/zapravka-kartridjey-dlya-lazernogo-printera",
+   "domain": "al-kart.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "стоимость заправки картриджа для принтера",
+   "eng": "g_msk",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-svetecran-led.jpg",
+   "caption": "svetecran.com, ТОП-7 Яндекс Москва по «led пленка»: «Самоклеящаяся прозрачная светодиодная плёнка»: цена «от» на первом экране, «Рассчитать проект», преимущества",
+   "url": "https://svetecran.com/led-plenka",
+   "domain": "svetecran.com",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-gtlamp-led.jpg",
+   "caption": "gtlamp.ru, ТОП-5 Яндекс Москва по «led пленка»: LED-плёнка: цифры 85% прозрачность, P3-P10, 1 кг/м², 5 500 нит, «цена прозрачного экрана за м²»",
+   "url": "https://www.gtlamp.ru/produkciya/svetodiodnyj-plenochnyj-ekran.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-ledplenka.jpg",
+   "caption": "ledplenka.ru, ТОП-6 Яндекс Москва по «led пленка»: главная с видео: «Новая технология, которая превращает стекло в экран»",
+   "url": "https://ledplenka.ru/",
+   "domain": "ledplenka.ru",
+   "niche": "LED-плёнки",
+   "h": 1200,
+   "q": "led пленка",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "file": "screenshots/competitors/serp-detectorgroup-led.jpg",
+   "caption": "detectorgroup.ru, ТОП-6 Яндекс Москва по «прозрачный led экран»: «Прозрачные светодиодные экраны»: «Стоимость от 128 622 руб./м²» на первом экране, разработка, персонализация, интеграция",
+   "url": "https://detectorgroup.ru/katalog/prozrachnye-led-ekrany/",
+   "domain": "detectorgroup.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 6
+  },
+  {
+   "file": "screenshots/competitors/serp-ledmediagroup.jpg",
+   "caption": "ledmediagroup.ru, ТОП-7 Яндекс Москва по «прозрачный led экран»: «Прозрачные экраны»: цена от 68 000 ₽/м², «Оформить заказ» и «Рассчитать стоимость», каталог готовых экранов с ценой",
+   "url": "https://ledmediagroup.ru/catalog/prozrachnye-ehkrany/",
+   "domain": "ledmediagroup.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-i-tec.jpg",
+   "caption": "i-tec.ru, ТОП-5 Яндекс Москва по «прозрачный светодиодный экран»: «Прозрачные светодиодные экраны»: 20 лет, гарантия, «Какие услуги мы оказываем» плиткой",
+   "url": "https://i-tec.ru/prozrachnie-svettodiodnie-ekrani.html",
+   "domain": "i-tec.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный светодиодный экран",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-ledcapital.jpg",
+   "caption": "ledcapital.ru, ТОП-3 Яндекс Москва по «прозрачный led экран»: «11 моделей медиафасадов, 11 моделей транспарентных экранов, прямые поставки» на первом экране",
+   "url": "https://ledcapital.ru/prozrachniy/",
+   "domain": "ledcapital.ru",
+   "niche": "LED-плёнки",
+   "h": 1000,
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 3
+  },
+  {
+   "file": "screenshots/competitors/serp-ymnoe-steklo.jpg",
+   "caption": "ymnoe-steklo-mosvka.ru, ТОП-8 Яндекс Москва по «светодиодная пленка на стекло»: «Основные преимущества смарт-плёнки» и «Как мы работаем»: выезд замерщика, подготовка, монтаж, гарантия",
+   "url": "https://ymnoe-steklo-mosvka.ru/smart-plenka/",
+   "domain": "ymnoe-steklo-mosvka.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "светодиодная пленка на стекло",
+   "eng": "ya_msk",
+   "pos": 8
+  },
+  {
+   "file": "screenshots/competitors/serp-privateglass.jpg",
+   "caption": "privateglass.ru, ТОП-7 Яндекс Москва по «светодиодная пленка на стекло»: смарт-плёнка «от 11 100 ₽/м²», «Заказать», табы «Описание, Характеристики, Документы»",
+   "url": "https://privateglass.ru/catalog/smart_plenka/",
+   "domain": "privateglass.ru",
+   "niche": "LED-плёнки",
+   "h": 1200,
+   "q": "светодиодная пленка на стекло",
+   "eng": "ya_msk",
+   "pos": 7
+  },
+  {
+   "file": "screenshots/competitors/serp-leddreamz.jpg",
+   "caption": "leddreamz.ru, ТОП-8 Яндекс Тюмень по «прозрачный светодиодный экран»: карточки гибких прозрачных экранов с ценой за м²",
+   "url": "https://leddreamz.ru/catalog/gibkie_prozrachnye_svetodiodnyy_ekrany/",
+   "domain": "leddreamz.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный светодиодный экран",
+   "eng": "ya_tmn",
+   "pos": 8
+  },
+  {
+   "file": "screenshots/competitors/serp-p10.jpg",
+   "caption": "p10.ru, ТОП-5 Яндекс Москва по «прозрачный led экран»: «Прозрачные светодиодные экраны»: карточки серий с ценой и «Купить»",
+   "url": "https://p10.ru/category/prozrachnie-led-ekrani/",
+   "domain": "p10.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-exposign-kuby.jpg",
+   "caption": "exposign.ru, ТОП-1 Яндекс Москва по «рекламный куб»: «Рекламные кубы»: оглавление, «Стоимость рекламных кубов» таблицей по размеру и площади",
+   "url": "https://exposign.ru/uslugi/art-obekty/reklamnye-kuby/",
+   "domain": "exposign.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 1
+  },
+  {
+   "file": "screenshots/competitors/serp-wp-art.jpg",
+   "caption": "wp-art.ru, ТОП-1 Google по «световой рекламный куб»: «Световые кубики»: цена от 11 000 ₽, варианты размеров",
+   "url": "https://wp-art.ru/produktsiya/svetovye-koroba/kubiki-svet",
+   "domain": "wp-art.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "световой рекламный куб",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "file": "screenshots/competitors/serp-bigdisplay-kub.jpg",
+   "caption": "bigdisplay.ru, ТОП-9 Яндекс Москва по «прозрачный led экран»: «LED-куб»: размер, шаг пикселя, яркость, «цена от 435 000 руб.», «для спорткомплексов»",
+   "url": "https://bigdisplay.ru/catalog/prozrachnye-svetodiodnye-ekrany",
+   "domain": "bigdisplay.ru",
+   "niche": "LED-плёнки",
+   "h": 1300,
+   "q": "прозрачный led экран",
+   "eng": "ya_msk",
+   "pos": 9
+  },
+  {
+   "file": "screenshots/competitors/serp-mospraz-kub.jpg",
+   "caption": "mospraz.ru, ТОП-4 Google по «рекламный куб»: «Рекламно-декоративный куб»: цена 2 100 руб., размеры, доставка, табы «Описание, Доставка, Оплата»",
+   "url": "https://mospraz.ru/reklamnye-konstrukcii/reklamno-dekorativnye-kuby/gosudarstvennyh-i-municipalnyh-sluzhb/reklamno-dekorativnyj-kub-moskva/",
+   "domain": "mospraz.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "рекламный куб",
+   "eng": "g_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-topviveski.jpg",
+   "caption": "topviveski.ru, ТОП-2 Google по «рекламный куб»: «Рекламный куб»: «от 590 руб., 1 день», «Заказать», «Какие рекламные кубы мы можем изготовить»",
+   "url": "https://topviveski.ru/services/reklamniy-kub",
+   "domain": "topviveski.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "рекламный куб",
+   "eng": "g_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-gtlamp-kub.jpg",
+   "caption": "gtlamp.ru, ТОП-2 Яндекс Москва по «светодиодный рекламный куб»: «3D LED-куб для торговых центров»: содержание, «Что такое 3D LED-куб и чем отличается от обычного видеокуба» таблицей сравнения",
+   "url": "https://www.gtlamp.ru/3d-led-kub-dlya-torgovyh-centrov-i-prezentaciy.html",
+   "domain": "gtlamp.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "светодиодный рекламный куб",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-standline.jpg",
+   "caption": "standline.ru, ТОП-4 Яндекс Москва по «рекламный куб»: «Объёмные кубы с брендингом»: от 5 583 ₽, конфигуратор по типоразмеру, материалу и печати",
+   "url": "https://standline.ru/katalog/pos-materialy/obemnye-kuby/obemnye-kuby-s-brendingom/",
+   "domain": "standline.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "рекламный куб",
+   "eng": "ya_msk",
+   "pos": 4
+  },
+  {
+   "file": "screenshots/competitors/serp-epoi.jpg",
+   "caption": "epoi.ru, ТОП-5 Яндекс Тюмень по «светодиодный куб»: перформанс-куб с ценой 35 000 ₽ и блоком «С этим товаром покупают»",
+   "url": "https://epoi.ru/svetodiodnyy-performans-kub/",
+   "domain": "epoi.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "светодиодный куб",
+   "eng": "ya_tmn",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-filpan-zapravka.jpg",
+   "caption": "filpan.ru, ТОП-2 Яндекс Москва по «заправка картриджа hp»: главная: «У вас бледно печатает принтер? Не тратьте время на поиски»: плитки принтеры и картриджи, цены справа, WhatsApp и Telegram",
+   "url": "https://www.filpan.ru/",
+   "domain": "filpan.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджа hp",
+   "eng": "ya_msk",
+   "pos": 2
+  },
+  {
+   "file": "screenshots/competitors/serp-signsystem-kuby.jpg",
+   "caption": "signsystem.ru, ТОП-1 Google по «светодиодный рекламный куб»: «Кубы с подсветкой» и «Процесс прохождения заказа» шагами: заявка, расчёт, оплата, дизайн-макет, изготовление, готово",
+   "url": "https://signsystem.ru/art-obektyi/kubyi-s-podsvetkoy/",
+   "domain": "signsystem.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "светодиодный рекламный куб",
+   "eng": "g_msk",
+   "pos": 1
+  },
+  {
+   "file": "screenshots/competitors/serp-detectorgroup-kub.jpg",
+   "caption": "detectorgroup.ru, ТОП-5 Google по «медиакуб»: «Медиакубы» и «Применение медиакубов»: бизнес и реклама, спорт и развлечения",
+   "url": "https://detectorgroup.ru/katalog/svetodiodnye-resheniya/mediakuby/",
+   "domain": "detectorgroup.ru",
+   "niche": "Медиакубы",
+   "h": 1300,
+   "q": "медиакуб",
+   "eng": "g_msk",
+   "pos": 5
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-it-soft72-ru.jpg",
+   "caption": "it-soft72.ru, ТОП-9 Яндекс Тюмень по «заправка картриджей»: «Услуги и стоимость» таблицей: заправка лазерных от 200 ₽, струйных от 150 ₽, доставка бесплатно от 4 шт.",
+   "url": "https://it-soft72.ru/zapravka-kartridzhej/",
+   "domain": "it-soft72.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 9
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-axion72-ru.jpg",
+   "caption": "axion72.ru, ТОП-10 Яндекс Тюмень по «заправка картриджей»: «Почему нас выбирают»: 14 лет, более 200 организаций, гарантия 12 месяцев, проверка качества, доставка",
+   "url": "https://axion72.ru/",
+   "domain": "axion72.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 10
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-tmn-zapr5-ru.jpg",
+   "caption": "tmn.zapr5.ru, ТОП-9 Google по «заправка картриджей в тюмени»: «Заправим лазерные и струйные принтеры за 15 минут», плитка брендов, акции и скидка 10%",
+   "url": "https://tmn.zapr5.ru/zapravka-kartridzhej/",
+   "domain": "tmn.zapr5.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей в тюмени",
+   "eng": "g_msk",
+   "pos": 9
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-korotron72-ru.jpg",
+   "caption": "korotron72.ru, ТОП-10 Яндекс Тюмень по «заправка картриджей для принтера»: «20+ лет, 15 000+ ремонтов, 98% довольных клиентов», «Наши услуги» с ценой «от 500 ₽»",
+   "url": "https://korotron72.ru/",
+   "domain": "korotron72.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей для принтера",
+   "eng": "ya_tmn",
+   "pos": 10
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-print-itsupport72-ru.jpg",
+   "caption": "print.itsupport72.ru, ТОП-8 Яндекс Тюмень по «заправка картриджей для принтера»: прайс-лист на заправку по моделям картриджей HP с датой обновления",
+   "url": "https://print.itsupport72.ru/",
+   "domain": "print.itsupport72.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей для принтера",
+   "eng": "ya_tmn",
+   "pos": 8
+  },
+  {
+   "file": "screenshots/competitors/serp-tyumen-local-2.jpg",
+   "caption": "it-soft72.ru, ТОП-9 Яндекс Тюмень по «заправка картриджей»: «Услуги и стоимость» таблицей: заправка лазерных от 200 ₽, струйных от 150 ₽, доставка бесплатно от 4 шт.",
+   "url": "https://it-soft72.ru/zapravka-kartridzhej/",
+   "domain": "it-soft72.ru",
+   "niche": "Картриджи",
+   "h": 1300,
+   "q": "заправка картриджей",
+   "eng": "ya_tmn",
+   "pos": 9
+  },
+  {
+   "file": "screenshots/competitors/price-gtlamp-m2.jpg",
+   "caption": "gtlamp.ru: цена LED-экрана за м² по шагу пикселя, «в 2026 году», для помещений и улицы",
+   "url": "https://www.gtlamp.ru/shop.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 415
+  },
+  {
+   "file": "screenshots/competitors/price-copygroup-skolko.jpg",
+   "caption": "copygroup.ru, страница «Цены»: «Сколько стоит 610 р., когда сделаем 2 часа, как оплачивать» и калькулятор стоимости",
+   "url": "https://www.copygroup.ru/price",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 750
+  },
+  {
+   "file": "screenshots/competitors/price-rpkluxexpo-top.jpg",
+   "caption": "rpkluxexpo.ru: «Актуальные цены с прайс-листами на все виды вывесок» на первом экране раздела",
+   "url": "https://rpkluxexpo.ru/price/",
+   "domain": "rpkluxexpo.ru",
+   "niche": "Медиакубы",
+   "h": 700
+  },
+  {
+   "file": "screenshots/competitors/listing-qubot-prices.jpg",
+   "caption": "qubot.ru: листинг сервисных роботов с ценой в рублях у каждой модели (Pudu MT1-VAC 700 000 ₽, Keenon C20 940 000 ₽), фильтр слева",
+   "url": "https://qubot.ru/catalog/servisnyye-roboty",
+   "domain": "qubot.ru",
+   "niche": "Роботы",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/reviews-copygroup.jpg",
+   "caption": "copygroup.ru: 214 отзывов с вкладками «положительные, нейтральные, отрицательные», ответ компании",
+   "url": "https://www.copygroup.ru/reviews/all/",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/reviews-gtlamp.jpg",
+   "caption": "gtlamp.ru: отзывы с названием объекта («Стадион Металлург», «Северные мосты») и текстом от заказчика",
+   "url": "https://www.gtlamp.ru/o-kompanii/otzyvy.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/reviews-bigdisplay.jpg",
+   "caption": "bigdisplay.ru: отзыв с фото экрана, датой установки, местом и аудиозаписью",
+   "url": "https://bigdisplay.ru/feedback/2014/otzyv-klienta-ulichnyy-svetodiodnyy-ekran-dlya-naruzhnoy-reklamy-g-kineshma",
+   "domain": "bigdisplay.ru",
+   "niche": "Медиакубы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/reviews-igobopro.jpg",
+   "caption": "igobopro.ru: отзывы клиентов с фото и городом",
+   "url": "https://www.igobopro.ru/otzyvy/",
+   "domain": "igobopro.ru",
+   "niche": "LED-плёнки",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/cases-robort.jpg",
+   "caption": "robort.ru: «Клиенты и проекты»: отель DoubleTree by Hilton Tyumen, ТЦ и вуз с моделью робота и результатом",
+   "url": "https://robort.ru/company/",
+   "domain": "robort.ru",
+   "niche": "Роботы",
+   "h": 688
+  },
+  {
+   "file": "screenshots/competitors/cases-gtlamp.jpg",
+   "caption": "gtlamp.ru: «Портфолио: 37 500+ реализованных LED-проектов» с фильтром по типу объекта",
+   "url": "https://www.gtlamp.ru/nashi-proekty.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/cases-bigdisplay.jpg",
+   "caption": "bigdisplay.ru: проекты на главной с объектом и задачей",
+   "url": "https://bigdisplay.ru/",
+   "domain": "bigdisplay.ru",
+   "niche": "Медиакубы",
+   "h": 825
+  },
+  {
+   "file": "screenshots/competitors/cases-rpkluxexpo.jpg",
+   "caption": "rpkluxexpo.ru: портфолио с фильтром по типу конструкции",
+   "url": "https://rpkluxexpo.ru/portfolios/",
+   "domain": "rpkluxexpo.ru",
+   "niche": "Медиакубы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/cases-igobopro.jpg",
+   "caption": "igobopro.ru: «Выполненные работы» с задачей и решением",
+   "url": "https://www.igobopro.ru/portfolio/",
+   "domain": "igobopro.ru",
+   "niche": "LED-плёнки",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/faq-bigdisplay.jpg",
+   "caption": "bigdisplay.ru: FAQ на странице цен: «сколько времени занимает монтаж», «как рассчитать размер экрана»",
+   "url": "https://bigdisplay.ru/solution/svetodiodnye-ekrany-dlya-sceny",
+   "domain": "bigdisplay.ru",
+   "niche": "Медиакубы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/faq-rpkluxexpo.jpg",
+   "caption": "rpkluxexpo.ru: FAQ на главной с кнопками «Задать вопрос в MAX» и «в Telegram»",
+   "url": "https://rpkluxexpo.ru/",
+   "domain": "rpkluxexpo.ru",
+   "niche": "Медиакубы",
+   "h": 592
+  },
+  {
+   "file": "screenshots/competitors/faq-robort.jpg",
+   "caption": "robort.ru: «Вопрос-ответ» на главной",
+   "url": "https://robort.ru/",
+   "domain": "robort.ru",
+   "niche": "Роботы",
+   "h": 161
+  },
+  {
+   "file": "screenshots/competitors/why-detectorgroup.jpg",
+   "caption": "detectorgroup.ru: «Конкурентные преимущества» нумерованным списком 01-07",
+   "url": "https://detectorgroup.ru/katalog/proektora/",
+   "domain": "detectorgroup.ru",
+   "niche": "LED-плёнки",
+   "h": 652
+  },
+  {
+   "file": "screenshots/competitors/why-igobopro.jpg",
+   "caption": "igobopro.ru: «Почему нас выбирают»: гарантия лучшей цены, режим одного окна, сроки",
+   "url": "https://www.igobopro.ru/portfolio/",
+   "domain": "igobopro.ru",
+   "niche": "LED-плёнки",
+   "h": 618
+  },
+  {
+   "file": "screenshots/competitors/why-bigdisplay.jpg",
+   "caption": "bigdisplay.ru: «Ключевые преимущества наших экранов» с цифрами (яркость, модульность, IP65)",
+   "url": "https://bigdisplay.ru/solution/svetodiodnye-ekrany-dlya-sceny",
+   "domain": "bigdisplay.ru",
+   "niche": "Медиакубы",
+   "h": 417
+  },
+  {
+   "file": "screenshots/competitors/segments-detectorgroup.jpg",
+   "caption": "detectorgroup.ru: «Отраслевые решения»: для сцены, ситуационных центров, кинотеатров, магазинов и ТЦ",
+   "url": "https://detectorgroup.ru/",
+   "domain": "detectorgroup.ru",
+   "niche": "LED-плёнки",
+   "h": 919
+  },
+  {
+   "file": "screenshots/competitors/stages-copygroup.jpg",
+   "caption": "copygroup.ru: «Порядок оказания услуг»: приём заказа, бесплатный выезд, заправка и проверка, оплата",
+   "url": "https://www.copygroup.ru/",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 696
+  },
+  {
+   "file": "screenshots/competitors/stages-detectorgroup.jpg",
+   "caption": "detectorgroup.ru: «Этапы сотрудничества» 01-10 от заявки до техподдержки",
+   "url": "https://detectorgroup.ru/katalog/proektora/",
+   "domain": "detectorgroup.ru",
+   "niche": "LED-плёнки",
+   "h": 530
+  },
+  {
+   "file": "screenshots/competitors/stages-megacartridge.jpg",
+   "caption": "megacartridge.ru: «Этапы работ» четырьмя шагами",
+   "url": "https://megacartridge.ru/price/",
+   "domain": "megacartridge.ru",
+   "niche": "Картриджи",
+   "h": 343
+  },
+  {
+   "file": "screenshots/competitors/stages-rpkluxexpo.jpg",
+   "caption": "rpkluxexpo.ru: «Шаг 1, 2, 3»: заявка, согласование, проверка работы",
+   "url": "https://rpkluxexpo.ru/",
+   "domain": "rpkluxexpo.ru",
+   "niche": "Медиакубы",
+   "h": 626
+  },
+  {
+   "file": "screenshots/competitors/calc-bigdisplay.jpg",
+   "caption": "bigdisplay.ru: «Рассчитайте размеры», сравнение типов экранов и пример проекта",
+   "url": "https://bigdisplay.ru/solution/svetodiodnye-ekrany-dlya-sceny",
+   "domain": "bigdisplay.ru",
+   "niche": "Медиакубы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/calc-copygroup.jpg",
+   "caption": "copygroup.ru: «Калькулятор стоимости услуг»: введите модель картриджа",
+   "url": "https://www.copygroup.ru/price",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 390
+  },
+  {
+   "file": "screenshots/competitors/brands-karex.jpg",
+   "caption": "karex.ru: «Бренды» плиткой с описанием каждого",
+   "url": "https://karex.ru/",
+   "domain": "karex.ru",
+   "niche": "Роботы",
+   "h": 1324
+  },
+  {
+   "file": "screenshots/competitors/brands-tnvst.jpg",
+   "caption": "tnvst.ru: «Официальный дилер 150 брендов» с сертификатами",
+   "url": "https://tnvst.ru/",
+   "domain": "tnvst.ru",
+   "niche": "Роботы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/kit-inkmarket.jpg",
+   "caption": "ink-market.ru: «Лазерные комплекты» с ценой по отдельности, за комплект и выгодой",
+   "url": "https://ink-market.ru/blogs/shares/5-na-komplekty-kartridzhey-t2-i-easyprint-s-10-avgusta-po-17-sentyabrya",
+   "domain": "ink-market.ru",
+   "niche": "Картриджи",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/kit-mnogochernil.jpg",
+   "caption": "mnogochernil.ru: «Сопутствующие товары» в карточке услуги",
+   "url": "https://mnogochernil.ru/service-pg/clean-set-yt33",
+   "domain": "mnogochernil.ru",
+   "niche": "Картриджи",
+   "h": 1421
+  },
+  {
+   "file": "screenshots/competitors/listing-kiit.jpg",
+   "caption": "kiit.ru: раздел каталога (складское оборудование): фильтр слева, цена «от» и кнопка «Купить» на каждой карточке",
+   "url": "https://www.kiit.ru:443/katalog/avtomatizirovannye-sklady/brand-dikom/",
+   "domain": "kiit.ru",
+   "niche": "Роботы",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/listing-interid.jpg",
+   "caption": "interid.ru: «Промышленные роботы»: категории плиткой и карточки с ценой",
+   "url": "https://interid.ru/robots",
+   "domain": "interid.ru",
+   "niche": "Роботы",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/listing-ledforms.jpg",
+   "caption": "ledforms.com: фильтр по параметрам и карточки с ценой",
+   "url": "https://ledforms.com/32-katalog",
+   "domain": "ledforms.com",
+   "niche": "Медиакубы",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/listing-astorpro.jpg",
+   "caption": "astorpro.ru: категории каталога плиткой с картинками",
+   "url": "https://astorpro.ru/catalog/",
+   "domain": "astorpro.ru",
+   "niche": "Роботы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/product-filpan.jpg",
+   "caption": "filpan.ru: карточка картриджа с ценой 1 710 ₽, доставкой, характеристиками",
+   "url": "https://www.filpan.ru/tovar/880/kartridzh-canon-cartridge-719-oem.html",
+   "domain": "filpan.ru",
+   "niche": "Картриджи",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/product-mnogochernil.jpg",
+   "caption": "mnogochernil.ru: карточка с ценой 1 650 ₽, совместимостью и «купить поштучно»",
+   "url": "https://mnogochernil.ru/neoriginalnye_kartridzhi/neoriginalnye_kartridzhi_epson/405xxl-set",
+   "domain": "mnogochernil.ru",
+   "niche": "Картриджи",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/product-tnvst.jpg",
+   "caption": "tnvst.ru: карточка с артикулом, гарантией, «Цена по запросу» и кнопкой «Получить КП»",
+   "url": "https://tnvst.ru/catalog/av_interaktivnye-paneli/interaktivnaya-panel-edflat-ed86ct/",
+   "domain": "tnvst.ru",
+   "niche": "Роботы",
+   "h": 1000
+  },
+  {
+   "file": "screenshots/competitors/product-qubot.jpg",
+   "caption": "qubot.ru: карточка робота с ценой 3 390 000 ₽, кнопками «Сравнить» и «Купить», табами",
+   "url": "https://qubot.ru/catalog/roboty-sobaki/promyshlennyye-roboty-sobaki/unitree-a2",
+   "domain": "qubot.ru",
+   "niche": "Роботы",
+   "h": 1100
+  },
+  {
+   "file": "screenshots/competitors/contacts-karex.jpg",
+   "caption": "karex.ru: «Контакты в г. Москва» с картой, режимом, сотрудниками сервиса",
+   "url": "https://karex.ru/about/service/",
+   "domain": "karex.ru",
+   "niche": "Роботы",
+   "h": 1300
+  },
+  {
+   "file": "screenshots/competitors/delivery-copygroup.jpg",
+   "caption": "copygroup.ru: «Стоимость и сроки доставки», «Самовывоз, заправка картриджей в нашей мастерской»",
+   "url": "https://www.copygroup.ru/dostavka",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 1561
+  },
+  {
+   "file": "screenshots/competitors/delivery-gtlamp.jpg",
+   "caption": "gtlamp.ru: «Доставка светодиодных экранов по России и СНГ»",
+   "url": "https://www.gtlamp.ru/o-kompanii/dostavka-svetodiodnogo-ehkrana.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/service-copygroup.jpg",
+   "caption": "copygroup.ru, услуга: «Бесплатный срочный выезд по Москве», «Бесплатная диагностика», форма заявки",
+   "url": "https://www.copygroup.ru/remont-printerov/",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 1000
+  },
+  {
+   "file": "screenshots/competitors/service-megacartridge.jpg",
+   "caption": "megacartridge.ru, услуга: форма заявки, вкладки «что ремонтируем, схема работы, цены, вопросы и ответы»",
+   "url": "https://megacartridge.ru/remont-printerov/",
+   "domain": "megacartridge.ru",
+   "niche": "Картриджи",
+   "h": 1200
+  },
+  {
+   "file": "screenshots/competitors/service-svetecran.jpg",
+   "caption": "svetecran.com: услуга монтажа с кнопкой «Рассчитать проект»",
+   "url": "https://svetecran.com/services/montazh",
+   "domain": "svetecran.com",
+   "niche": "LED-плёнки",
+   "h": 1200
+  },
+  {
+   "file": "screenshots/competitors/home-tnvst.jpg",
+   "caption": "tnvst.ru: первый экран «Надёжный поставщик решений для бизнеса с 2004 г.», дилер 150 производителей",
+   "url": "https://tnvst.ru/",
+   "domain": "tnvst.ru",
+   "niche": "Роботы",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/home-qubot.jpg",
+   "caption": "qubot.ru: первый экран «Роботы для бизнеса под ключ» и логотипы СМИ",
+   "url": "https://qubot.ru/",
+   "domain": "qubot.ru",
+   "niche": "Роботы",
+   "h": 1000
+  },
+  {
+   "file": "screenshots/competitors/home-interid.jpg",
+   "caption": "interid.ru: четыре аргумента на первом экране",
+   "url": "https://interid.ru/",
+   "domain": "interid.ru",
+   "niche": "Роботы",
+   "h": 305
+  },
+  {
+   "file": "screenshots/competitors/segments-tnvst.jpg",
+   "caption": "tnvst.ru: «Решения под задачу» с кейсом роботизации склада",
+   "url": "https://tnvst.ru/",
+   "domain": "tnvst.ru",
+   "niche": "Роботы",
+   "h": 591
+  },
+  {
+   "file": "screenshots/competitors/calc-gtlamp.jpg",
+   "caption": "gtlamp.ru: «Рассчитать стоимость готового экрана» и таблица «indoor или outdoor»",
+   "url": "https://www.gtlamp.ru/shop.html",
+   "domain": "gtlamp.ru",
+   "niche": "LED-плёнки",
+   "h": 620
+  },
+  {
+   "file": "screenshots/competitors/brands-copygroup.jpg",
+   "caption": "copygroup.ru: «Какие принтеры мы ремонтируем»: 24 логотипа брендов",
+   "url": "https://www.copygroup.ru/remont-printerov/",
+   "domain": "copygroup.ru",
+   "niche": "Картриджи",
+   "h": 900
+  },
+  {
+   "file": "screenshots/competitors/calc-rpkluxexpo.jpg",
+   "caption": "rpkluxexpo.ru: «Пройдите тест, рассчитайте вывеску и получите скидку»",
+   "url": "https://rpkluxexpo.ru/",
+   "domain": "rpkluxexpo.ru",
+   "niche": "Медиакубы",
+   "h": 816
+  }
+ ]
+}

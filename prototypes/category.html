@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип: Роботы-уборщики и поломоечные машины для бизнеса. АТМ Альянс</title>
+<meta name="description" content="Прототип раздела каталога atm72.ru «Роботы-уборщики»: фильтр, 9 моделей с характеристиками и ценой «от», сравнение, подбор по четырём параметрам, условия, FAQ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23E11D2E%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/styles.css?v=1">
+</head>
+<body>
+
+<!-- Панель прототипа -->
+<div class="proto-bar">
+  <span class="pb-title">Прототип «АТМ Альянс»</span>
+  <nav>
+    <a href="../index.html">Обзор</a>
+    <a href="home.html">Главная</a>
+    <a href="category.html">Раздел: роботы</a>
+    <a href="product.html">Карточка: Pudu CC1</a>
+    <a href="service.html">Услуга: заправка</a>
+  </nav>
+  <div class="pb-legend">
+    <span><i style="background:#6B7280"></i>Существующий блок</span>
+    <span><i style="background:#15803D"></i>Новый: по исследованию</span>
+    <button class="pb-toggle" data-toggle-tags>Скрыть пометки</button>
+  </div>
+</div>
+
+<!-- Верхняя полоса -->
+<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. География, режим, почта и статус официального поставщика в одну строку (karex, kiit, mnogochernil, gtlamp)">
+  <div class="container">
+    <span>Москва, Дербеневская наб., 11 кА</span>
+    <span class="hide-m">75 офисов, сервис в 44 городах</span>
+    <span class="hide-m">Пн-пт 9:00-18:00</span>
+    <span class="grow"></span>
+    <a class="hide-m" href="mailto:msk@atm72.ru">msk@atm72.ru</a>
+    <span class="direct">Официальный поставщик Pudu и Keenon, сервисный партнёр Сбера</span>
+  </div>
+</div>
+
+<!-- Шапка -->
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по товарным направлениям, телефон 8 800 с подписью, мессенджеры, кнопка «Запросить КП» (karex, robort, copygroup)">
+  <div class="container">
+    <a class="logo" href="home.html"><img src="../assets/img/logo.svg" alt="АТМ Альянс"></a>
+    <nav class="hnav">
+      <a href="category.html">Роботы-уборщики</a>
+      <a href="#">LED-плёнки</a>
+      <a href="#">Медиакубы</a>
+      <a href="service.html">Заправка картриджей</a>
+      <a href="#">Банковское оборудование</a>
+      <a href="#">Сервис</a>
+      <a href="#">О компании</a>
+    </nav>
+    <div class="hdr-phone"><b>8 800 200 62 32</b><span>бесплатно по России, пн-пт 9:00-18:00</span></div>
+    <div class="msgs">
+      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
+      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
+    </div>
+    <a class="btn btn-primary" href="#" data-ask data-ask-title="Запросить коммерческое предложение" data-ask-sub="Напишите, что нужно и для какого объекта. Менеджер ответит в течение рабочего дня">Запросить КП</a>
+    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<!-- Мобильное меню -->
+<div class="drawer">
+  <div class="panel">
+    <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Каталог</h4>
+    <a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей, Тюмень</a><a href="#">Банкоматы и кассы самообслуживания</a><a href="#">LED-экраны и панели</a>
+    <h4>Компания</h4>
+    <a href="#">Сервис и обслуживание</a><a href="#">О компании</a><a href="#">Проекты</a><a href="#">Контакты и офисы</a>
+    <h4>Связь</h4>
+    <a href="tel:88002006232">8 800 200 62 32</a><a href="tel:+74952585272">+7 (495) 258 52 72</a><a href="mailto:msk@atm72.ru">msk@atm72.ru</a><a href="#">Telegram</a><a href="#">WhatsApp</a><a href="#">MAX</a>
+  </div>
+</div>
+<div class="container" style="padding-top:18px">
+  <div class="crumbs blk blk-inline" data-tag="old" data-label="Существующий блок: хлебные крошки">
+    <a href="home.html">Главная</a><span class="sep">/</span><a href="#">Каталог</a><span class="sep">/</span><span>Роботы-уборщики</span>
+  </div>
+
+  <div class="cat-head blk blk-inline" data-tag="mix" data-label="Существующий блок (H1 и 152 слова), переработан: число моделей, вступление из согласованного текста, кнопки подбора и демонстрации" id="head">
+    <div>
+      <h1>Роботы-уборщики и поломоечные машины для бизнеса <span class="cnt">9 моделей, 4 бренда</span></h1>
+      <p>Робот-уборщик выполняет ежедневную уборку больших площадей без участия оператора: подметает, моет пол, собирает пыль и высушивает покрытие за один проход. АТМ Альянс поставляет промышленные роботы-пылесосы и поломоечные машины для торговых центров, складов, аэропортов, отелей и бизнес-центров, выполняет пусконаладку и обучение персонала.</p>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-primary" href="#" data-ask data-ask-title="Подобрать робот-уборщик" data-ask-sub="Укажите площадь, тип покрытия и график уборки, менеджер подберёт модель и рассчитает количество машин">Подобрать под объект</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Демонстрация на объекте" data-ask-sub="Оставьте адрес объекта, согласуем дату тестового запуска">Демонстрация на объекте</a></div>
+  </div>
+
+  <div class="subcats blk blk-inline" data-tag="res" data-label="Новый блок: по результатам исследования. Быстрые фильтры по назначению: запросы «для торговых центров», «для склада», «для офиса», «полотёр», «промышленный пылесос» есть в семантике (interid, tnvst, kiit)" data-tabs="#grid">
+    <a class="active" href="#" data-filter="all">Все модели <small>9</small></a>
+    <a href="#" data-filter="tc">Торговые центры <small>4</small></a>
+    <a href="#" data-filter="sklad">Склады и производства <small>3</small></a>
+    <a href="#" data-filter="office">Офисы и отели <small>4</small></a>
+    <a href="#" data-filter="parking">Парковки <small>1</small></a>
+    <a href="#" data-filter="carpet">Ковровые покрытия <small>3</small></a>
+    <a href="#" data-filter="glass">Мойка остекления <small>1</small></a>
+  </div>
+
+  <div class="catalog-layout">
+
+    <aside class="filters blk" id="filters" data-tag="res" data-label="Новый блок: по результатам исследования. Фильтр по типу уборки, производительности, площади, покрытию, бренду и цене (karex, kiit, interid, robort: фильтр на 7 из 8 сайтов ниши)">
+      <div class="f-head"><h3>Подобрать модель</h3><a href="#">Сбросить</a></div>
+      <div class="fgroup"><b>Тип уборки</b>
+        <label><input type="checkbox" checked> Мойка пола <small>8</small></label>
+        <label><input type="checkbox" checked> Подметание и вакуум <small>7</small></label>
+        <label><input type="checkbox"> Сухая протирка <small>3</small></label>
+        <label><input type="checkbox"> Ковровые покрытия <small>3</small></label>
+        <label><input type="checkbox"> Мойка стекла <small>1</small></label>
+      </div>
+      <div class="fgroup"><b>Площадь объекта</b>
+        <label><input type="radio" name="a"> до 2 000 м² <small>4</small></label>
+        <label><input type="radio" name="a" checked> 2 000-10 000 м² <small>6</small></label>
+        <label><input type="radio" name="a"> больше 10 000 м² <small>3</small></label>
+      </div>
+      <div class="fgroup"><b>Производительность</b>
+        <label><input type="checkbox"> до 700 м²/ч <small>3</small></label>
+        <label><input type="checkbox" checked> 700-1 100 м²/ч <small>4</small></label>
+        <label><input type="checkbox"> больше 1 100 м²/ч <small>2</small></label>
+      </div>
+      <div class="fgroup"><b>Покрытие</b>
+        <label><input type="checkbox" checked> Плитка, керамогранит <small>8</small></label>
+        <label><input type="checkbox"> Наливной пол, бетон <small>6</small></label>
+        <label><input type="checkbox"> Ковролин <small>3</small></label>
+        <label><input type="checkbox"> Стекло <small>1</small></label>
+      </div>
+      <div class="fgroup"><b>Бренд</b>
+        <label><input type="checkbox" checked> Pudu <small>2</small></label>
+        <label><input type="checkbox" checked> Keenon (Kleenbot) <small>2</small></label>
+        <label><input type="checkbox"> Viggo <small>1</small></label>
+        <label><input type="checkbox"> Linkong <small>1</small></label>
+      </div>
+      <div class="fgroup"><b>Работа при посетителях</b>
+        <label><input type="checkbox"> Шум до 70 дБ <small>5</small></label>
+        <label><input type="checkbox"> Док-станция с автодоливом <small>4</small></label>
+      </div>
+      <div class="fgroup"><b>Цена, ₽</b>
+        <div class="range"><input type="number" placeholder="от"><input type="number" placeholder="до"></div>
+        <div class="hint">Базовый комплект без док-станции. <span class="fill">диапазон задаёт клиент</span></div>
+      </div>
+      <div class="apply"><button class="btn btn-outline" type="button" data-close-filters>Закрыть</button><button class="btn btn-primary" type="button" data-close-filters>Показать 6</button></div>
+    </aside>
+
+    <div>
+      <div class="toolbar blk blk-inline" data-tag="mix" data-label="Существующий блок (список карточек без параметров), переработан: счётчик, сортировка по цене и производительности, кнопка сравнения (karex, robort)">
+        <div class="sort">
+          <button class="btn btn-outline btn-sm filter-btn" data-open-filters>Фильтр (3)</button>
+          <span>Сортировать:</span><a class="active" href="#">рекомендуем</a><a href="#">по цене</a><a href="#">по производительности</a><a href="#">по автономности</a>
+        </div>
+        <a class="muted small" href="#compare">Сравнить выбранные: 3</a>
+      </div>
+      <div class="active-filters"><span class="chip">2 000-10 000 м² <b>✕</b></span><span class="chip">700-1 100 м²/ч <b>✕</b></span><span class="chip">Плитка, керамогранит <b>✕</b></span><span class="chip" style="background:transparent;color:var(--muted)">Найдено 6 моделей</span></div>
+
+      <div class="room-grid two blk" id="grid" data-tag="mix" data-label="Существующий блок (карточки «название + запросить стоимость»), переработан: тип уборки, производительность, баки, автономность, назначение, цена «от» и две кнопки (karex, robort, kiit, master-chistoty)">
+        <article class="room" data-niche="tc office carpet"><div class="pic"><img src="../assets/img/pudu-cc1.png" alt="Pudu CC1" style="object-fit:contain;background:#fff"><div class="badges"><span class="chip ok">Хит</span><span class="chip">4 режима</span></div></div><div class="body"><h3><a href="product.html">Pudu CC1</a></h3><div class="meta"><span>700-1 000 м²/ч</span><span>мойка, подметание, вакуум, протирка</span><span>баки 15 + 15 л</span><span>5 ч мойки, 9 ч протирки</span><span>75 кг, проход от 70 см</span></div><div class="incl"><span>шум до 70 дБ</span><span>док-станция опционально</span><span>ковры с модулем</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">бизнес-центры, ритейл,<br>отели, рестораны</span></div><div class="actions"><a class="btn btn-primary" href="product.html">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Pudu CC1" data-ask-product="Робот-уборщик Pudu CC1">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="tc office"><div class="pic"><img src="../assets/img/keenon-c40.jpg" alt="Keenon Cleanbot C40" style="object-fit:contain;background:#fff"><div class="badges"><span class="chip ok">Для ТЦ</span></div></div><div class="body"><h3><a href="#">Keenon Cleanbot C40 (Kleenbot C40)</a></h3><div class="meta"><span>до 1 100 м²/ч</span><span>мойка, подметание, вакуум, протирка</span><span>баки 16 + 14 л, мешок 8 л</span><span>5 ч мойки, 12 ч подметания</span><span>70 кг, быстрая замена батареи</span></div><div class="incl"><span>3 щётки</span><span>лидар и 2 стереокамеры</span><span>зарядка 2 ч</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">торговые центры,<br>супермаркеты, школы</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Keenon C40" data-ask-product="Робот-уборщик Keenon Cleanbot C40">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="office"><div class="pic"><img src="../assets/img/keenon-cut.jpg" alt="Kleenbot C30" style="object-fit:contain;background:#fff"></div><div class="body"><h3><a href="#">Kleenbot C30</a></h3><div class="meta"><span>влажная и сухая уборка</span><span>помещения средней площади</span><span><span class="fill">производительность</span></span></div><div class="incl"><span>компактный</span><span>работа по расписанию</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">офисы, клиники,<br>небольшие залы</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Kleenbot C30" data-ask-product="Робот-уборщик Kleenbot C30">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="tc carpet"><div class="pic"><img src="../assets/img/robot-s11.png" alt="Pudu MT1 VAC" style="object-fit:contain;background:#fff"><div class="badges"><span class="chip">Ковры и фуд-корты</span></div></div><div class="body"><h3><a href="#">Pudu MT1 VAC</a></h3><div class="meta"><span>подметание и вакуумная уборка</span><span>открытые зоны</span><span>ковровые покрытия</span></div><div class="incl"><span>сухая уборка</span><span>фуд-корты</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">фуд-корты, атриумы,<br>ковровые зоны</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Pudu MT1 VAC" data-ask-product="Робот-пылесос Pudu MT1 VAC">Запросить КП</a></div></div></article>
+
+        <!-- Лид-блок внутри сетки -->
+        <div class="lead-card photo blk" style="background-image:linear-gradient(rgba(185,18,31,.86),rgba(150,10,22,.94)),url('../assets/img/robot-dock.jpg')" data-tag="res" data-label="Новый блок: по результатам исследования. Подбор по 4 параметрам внутри сетки (tnvst, qubot, interid)">
+          <span class="eyebrow" style="color:#F6B4B9">Подбор под объект</span>
+          <h3>Площадь, покрытие, планировка, график: подберём модель и число машин</h3>
+          <p>Для 5 000 м² с ночным окном в 6 часов достаточно одной машины, для 15 000 м² нужны несколько единиц или круглосуточный цикл с док-станцией.</p>
+          <a class="btn btn-light" href="#" data-ask data-ask-title="Подобрать робот-уборщик" data-ask-sub="Укажите площадь, тип покрытия, планировку и график уборки">Подобрать модель</a>
+        </div>
+
+        <article class="room" data-niche="sklad"><div class="pic"><img src="../assets/img/robot-industrial.png" alt="Viggo SC80P" style="object-fit:contain;background:#fff"><div class="badges"><span class="chip ok">Для складов</span></div></div><div class="body"><h3><a href="#">Viggo SC80P</a></h3><div class="meta"><span>сбор пыли и мелкого мусора</span><span>влажная уборка</span><span>большие площади</span></div><div class="incl"><span>склады и производства</span><span>маршрут между стеллажами</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">склады, производства,<br>большие залы</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Viggo SC80P" data-ask-product="Робот-уборщик Viggo SC80P">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="parking sklad"><div class="pic"><img src="../assets/img/robot-dock.jpg" alt="Робот-уборщик C50"><div class="badges"><span class="chip">Парковки</span></div></div><div class="body"><h3><a href="#">Робот-уборщик C50</a></h3><div class="meta"><span>уборка твёрдых покрытий</span><span>подземные парковки</span></div><div class="incl"><span>бетон и асфальт</span><span>большая ширина уборки</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">подземные парковки,<br>логистические комплексы</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену C50" data-ask-product="Робот-уборщик C50">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="glass"><div class="pic"><img src="../assets/img/robot-linkong.jpg" alt="Linkong K3" style="object-fit:contain;background:#fff"><div class="badges"><span class="chip">Фасады</span></div></div><div class="body"><h3><a href="#">Linkong K3</a></h3><div class="meta"><span>мойка остекления</span><span>стеклянные фасады и витражи</span></div><div class="incl"><span>без альпинистов</span><span>атриумы, витрины</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">фасады, витражи,<br>зимние сады</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену Linkong K3" data-ask-product="Робот для мойки остекления Linkong K3">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="office"><div class="pic"><img src="../assets/img/keenon-cut.jpg" alt="Робот-уборщик C20" style="object-fit:contain;background:#fff"></div><div class="body"><h3><a href="#">Робот-уборщик C20</a></h3><div class="meta"><span>влажная и сухая уборка</span><span>офисы, небольшие залы</span></div><div class="incl"><span>компактный</span><span>узкие проходы</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">офисы,<br>небольшие залы</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену C20" data-ask-product="Робот-уборщик C20">Запросить КП</a></div></div></article>
+
+        <article class="room" data-niche="office tc carpet"><div class="pic"><img src="../assets/img/robot-s11.png" alt="Робот-уборщик S11" style="object-fit:contain;background:#fff"></div><div class="body"><h3><a href="#">Робот-уборщик S11</a></h3><div class="meta"><span>влажная и сухая уборка</span><span>коммерческие помещения</span></div><div class="incl"><span>универсальный</span><span>расписание из приложения</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>базовый комплект</small></div><span class="term">коммерческие<br>помещения</span></div><div class="actions"><a class="btn btn-primary" href="#">Подробнее</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Запросить цену S11" data-ask-product="Робот-уборщик S11">Запросить КП</a></div></div></article>
+
+        <div class="lead-card dark photo blk" style="background-image:linear-gradient(rgba(27,53,64,.82),rgba(27,53,64,.94)),url('../assets/img/pudu-day.jpg')" data-tag="res" data-label="Новый блок: по результатам исследования. Партия для сети объектов и демонстрация (t-co, interid)">
+          <span class="eyebrow" style="color:#9AD1B5">Для сетей</span>
+          <h3>Нужно оснастить несколько объектов?</h3>
+          <p>Поставка партией, единый график пусконаладки, обучение персонала на каждом объекте, расходные материалы со склада.</p>
+          <a class="btn btn-light" href="#" data-ask data-ask-title="Партия роботов для сети" data-ask-sub="Укажите число объектов и города">Обсудить партию</a>
+        </div>
+      </div>
+      <p class="muted small" style="margin-top:12px">Цены «от» условные и заполняются клиентом. Точная сумма в коммерческом предложении зависит от комплектации: док-станция, мобильный бак, модуль для ковров, запасные щётки.</p>
+    </div>
+  </div>
+
+  <!-- Сравнение -->
+  <section class="section blk" data-tag="res" data-label="Новый блок: по результатам исследования. Сравнение моделей таблицей из согласованного текста (karex, kiit, master-chistoty: сравнение у 7 из 8 сайтов ниши)" id="compare">
+    <div class="section-head"><div><span class="eyebrow">Сравнение</span><h2>Какая модель для какого объекта</h2><p>Таблица из согласованного текста раздела, дополнена производительностью и баками из карточек.</p></div></div>
+    <div style="overflow-x:auto">
+      <table class="cmp-table">
+        <tr><th>Модель</th><th>Тип уборки</th><th>Производительность</th><th>Баки, автономность</th><th>Основное применение</th><th>Цена от</th></tr>
+        <tr><td><b>Pudu CC1</b></td><td>Мойка, подметание, вакуум, сухая протирка</td><td>700-1 000 м²/ч</td><td>15 + 15 л, 5 ч мойки, 9 ч протирки</td><td>Бизнес-центры, ритейл, отели, рестораны</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>Keenon C40</b></td><td>Мойка, подметание, вакуум, протирка</td><td>до 1 100 м²/ч</td><td>16 + 14 л, 5 ч мойки, 12 ч подметания</td><td>Торговые центры, супермаркеты, школы, офисы</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>Kleenbot C30</b></td><td>Влажная и сухая уборка</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Помещения средней площади</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>Pudu MT1 VAC</b></td><td>Подметание и вакуумная уборка</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Открытые зоны, ковровые покрытия, фуд-корты</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>Viggo SC80P</b></td><td>Сбор пыли и мусора, влажная уборка</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Склады, производства, большие залы</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>C50</b></td><td>Уборка твёрдых покрытий</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Подземные парковки</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>Linkong K3</b></td><td>Мойка остекления</td><td><span class="fill">м²/ч</span></td><td><span class="fill">ч</span></td><td>Стеклянные фасады и витражи</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>C20</b></td><td>Влажная и сухая уборка</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Офисы, небольшие залы</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+        <tr><td><b>S11</b></td><td>Влажная и сухая уборка</td><td><span class="fill">м²/ч</span></td><td><span class="fill">л, ч</span></td><td>Коммерческие помещения</td><td><span class="fill">N NNN NNN ₽</span></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Как выбрать -->
+  <section class="section blk" data-tag="res" data-label="Новый блок: по результатам исследования. Четыре параметра подбора из согласованного текста, отдельным визуальным блоком (kiit, interid: гайды по подбору)" id="choose" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Как выбрать</span><h2>Подбор строится по четырём параметрам</h2><p>Ориентир по производительности: модели среднего класса убирают от 700 до 1 100 м² в час. Для объекта 5 000 м² с ночным окном в шесть часов достаточно одной машины, для 15 000 м² потребуется несколько единиц техники либо круглосуточный цикл с автоматической зарядкой и доливом воды.</p></div></div>
+    <div class="steps">
+      <div><b class="num">1</b><h3>Площадь уборки</h3><p>Определяет производительность в м²/ч и ёмкость баков. Уточнить площадь объекта и время, выделяемое на уборку.</p></div>
+      <div><b class="num">2</b><h3>Тип покрытия</h3><p>Набор щёток и доступные режимы. Плитка, керамогранит, наливной пол или ковровое покрытие.</p></div>
+      <div><b class="num">3</b><h3>Планировка</h3><p>Требования к навигации и габаритам. Ширина проходов, пороги, наличие лифтов и стеллажей.</p></div>
+      <div><b class="num">4</b><h3>График работы</h3><p>Автономность и потребность в док-станции. Дневная работа при посетителях или ночная смена.</p></div>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="section blk" data-tag="mix" data-label="Существующий блок (абзац преимуществ), переработан: семь аргументов из согласованного текста карточками с картинками (robort, qubot)" id="benefits">
+    <div class="section-head"><div><span class="eyebrow">Преимущества</span><h2>Что даёт роботизированная уборка</h2></div></div>
+    <div class="info-grid cols-4">
+      <div class="info accent"><div class="pic"><img src="../assets/img/pudu-day.jpg" alt=""></div><h3>Снижение расходов на персонал</h3><p>Одна машина выполняет объём работ ночной смены, это снижает расходы на зарплату.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/robot-dock.jpg" alt=""></div><h3>Работа по расписанию 24/7</h3><p>Маршрут и график задаются один раз, дальнейшая уборка выполняется автоматически.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/pudu-sensors.png" alt=""></div><h3>Стабильное качество</h3><p>Одинаковый прижим щёток и расход воды на всей площади, человеческий фактор исключён.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/pudu-dock.jpg" alt=""></div><h3>Влажная и сухая уборка за один проход</h3><p>Подметает, моет и собирает воду за один проход, покрытие остаётся сухим.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/keenon-c40.jpg" alt=""></div><h3>Тихая работа днём</h3><p>Уровень шума ниже 70 дБ позволяет убирать в присутствии посетителей.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/robot-s11.png" alt=""></div><h3>Отчётность в приложении</h3><p>Убранная площадь, время работы и расход воды по каждой машине.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/keenon-cut.jpg" alt=""></div><h3>Технологичный облик объекта</h3><p>Робот в зале воспринимается посетителями как признак современного сервиса.</p></div>
+      <div class="info"><div class="pic"><img src="../assets/img/robot-industrial.png" alt=""></div><h3>Демонстрация до покупки</h3><p>Тестовый запуск на объекте заказчика, условия согласовываются индивидуально.</p></div>
+    </div>
+  </section>
+
+  <!-- Условия -->
+  <section class="section blk" data-tag="mix" data-label="Существующий блок (текст «цена и условия поставки»), переработан: цена, поставка, гарантия и сервис тремя карточками с цифрами (karex, tnvst, astorpro: доставка и гарантия на 7-8 сайтах ниши)" id="terms" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Цена, поставка, сервис</span><h2>Условия поставки и обслуживания</h2></div></div>
+    <div class="tariffs">
+      <div class="tariff"><div class="pic"><img src="../assets/img/pudu-cc1.png" alt="" style="object-fit:contain;background:#fff"></div><h3>Цена и комплектация <span class="chip ok">КП за рабочий день</span></h3><div class="kv"><span>Поштучно и партией</span><b>для сети объектов</b></div><div class="kv"><span>Влияет на цену</span><b>док-станция, бак, модуль ковров, щётки</b></div><div class="kv"><span>Для расчёта</span><b>площадь и тип покрытия</b></div><p class="note">Единый прайс не публикуется: конфигурация подбирается под объект. В прототипе рекомендуем цену «от» на карточках.</p></div>
+      <div class="tariff best"><div class="pic"><img src="../assets/img/led-mediafasad.jpg" alt=""></div><h3>Поставка <span class="chip brand">48 городов</span></h3><div class="kv"><span>Склады и офисы</span><b>Москва, СПб, Екатеринбург, Казань</b></div><div class="kv"><span>Ещё</span><b>Ростов, Краснодар, Уфа, Челябинск, Омск, Тюмень</b></div><div class="kv"><span>Пусконаладка</span><b>инженерами сервисной службы</b></div><p class="note">Построение карты помещения, настройка маршрутов и расписания, обучение персонала.</p></div>
+      <div class="tariff"><div class="pic"><img src="../assets/img/robot-dock.jpg" alt=""></div><h3>Гарантия и сервис <span class="chip sand">производителя</span></h3><div class="kv"><span>Гарантия</span><b>производителя на всё оборудование</b></div><div class="kv"><span>Плановое ТО</span><b>раз в год специалистами АТМ</b></div><div class="kv"><span>Расходники</span><b>щётки, скребки, фильтры, АКБ со склада</b></div><p class="note">Ежедневно: чистка щёток и промывка бака. Периодически: замена скребков и фильтров по мере износа.</p></div>
+    </div>
+  </section>
+
+  <!-- Как заказать -->
+  <section class="section blk" data-tag="res" data-label="Новый блок: по результатам исследования. Четыре шага заказа из согласованного текста (tnvst, qubot, copygroup: «как мы работаем»)" id="order">
+    <div class="section-head"><div><span class="eyebrow">Как заказать</span><h2>Четыре шага до робота на объекте</h2></div><a class="btn btn-primary" href="#" data-ask data-ask-title="Запросить стоимость и подбор модели" data-ask-sub="Укажите площадь, покрытие и график уборки">Запросить стоимость и подбор</a></div>
+    <div class="steps">
+      <div><b class="num">1</b><h3>Заявка</h3><p>Площадь объекта, тип покрытия и желаемый график уборки.</p></div>
+      <div><b class="num">2</b><h3>Подбор</h3><p>Вместе с сотрудником отдела продаж подбираем модель и считаем число машин.</p></div>
+      <div><b class="num">3</b><h3>Коммерческое предложение</h3><p>Цена, комплектация и срок поставки. Согласование договора.</p></div>
+      <div><b class="num">4</b><h3>Демонстрация и поставка</h3><p>При необходимости тестовый запуск на объекте, затем поставка и пусконаладка.</p></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section blk" data-tag="res" data-label="Новый блок: по результатам исследования. Пять вопросов из согласованного текста с разметкой FAQPage (kiit, robort, interid, karex: FAQ на 7 из 8 сайтов)" id="faq" style="background:var(--surface);border-top:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Частые вопросы</span><h2>Что спрашивают перед покупкой робота-уборщика</h2></div></div>
+    <div class="faq-2">
+      <div class="faq">
+        <details open><summary>Чем робот-полотёр отличается от робота-пылесоса?</summary><div class="a">Робот-пылесос собирает сухой мусор и пыль, робот-полотёр моет пол водой с моющим средством и собирает загрязнённую воду скребком. Большинство коммерческих моделей совмещают обе функции и выполняют подметание, мойку и протирку насухо за один проход. Робот-полотёр, робот-поломойщик, поломоечный робот, промышленный робот-уборщик: речь об одном классе машин.</div></details>
+        <details><summary>Какую площадь убирает робот за смену?</summary><div class="a">Модели среднего класса обеспечивают от 700 до 1 100 м² в час, за ночную смену от 4 000 до 7 000 м². В открытом зале машина движется беспрепятственно, среди стеллажей и мебели производительность снижается.</div></details>
+        <details><summary>Нужен ли оператор?</summary><div class="a">Постоянный оператор не требуется. Задание запускается с экрана машины или по расписанию из приложения. Персонал привлекается только для обслуживания: долив чистой воды, слив загрязнённой, чистка щёток. С док-станцией эти операции выполняются без людей.</div></details>
+      </div>
+      <div class="faq">
+        <details><summary>Как обслуживается робот-уборщик?</summary><div class="a">Ежедневно чистка щёток и промывка бака для загрязнённой воды. Периодически замена скребков, фильтров и щёток по мере износа. Раз в год плановое ТО специалистами сервисной службы АТМ Альянс. Расходные материалы на складе.</div></details>
+        <details><summary>Можно ли посмотреть работу машины перед покупкой?</summary><div class="a">Да, возможна демонстрация или тестовый запуск на объекте заказчика. Условия согласовываются индивидуально.</div></details>
+        <details><summary>Работает ли робот днём при посетителях?</summary><div class="a">Да: уровень шума ниже 70 дБ, машина объезжает людей и тележки, а полноценную мойку выполняет ночью по расписанию.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO-текст -->
+  <section class="section blk" data-tag="mix" data-label="Существующий блок (152 слова описания), переработан: согласованный текст раздела по сегментам, ниже сетки и таблиц (copygroup, kiit)" id="text">
+    <div class="section-head"><div><span class="eyebrow">Для каких помещений</span><h2>Роботы-уборщики для торговых центров, складов, аэропортов, отелей и ресторанов</h2></div></div>
+    <div class="seo-text">
+      <h3>Торговые центры и супермаркеты</h3><p>Робот-уборщик для торговых центров решает проблему постоянного загрязнения полов в местах с большой проходимостью. Днём машина работает деликатно, объезжая тележки и посетителей, ночью выполняет генеральную уборку зала.</p>
+      <h3>Склады и производства</h3><p>Большие площади с однородным покрытием идеально подходят для робота-уборщика: маршрут строится один раз, дальнейшее перемещение между стеллажами выполняется по расписанию.</p>
+      <h3>Аэропорты и вокзалы</h3><p>Оборудование обслуживает терминалы и залы ожидания в непрерывном цикле: после завершения участка машина возвращается на станцию, сливает воду, заряжается и продолжает работу.</p>
+      <h3>Отели, банки и бизнес-центры</h3><p>Уборка лобби, коридоров и конференц-залов проводится тихо и не создаёт неудобств для гостей.</p>
+      <h3>Рестораны и фуд-корты</h3><p>Днём локальная уборка загрязнений, ночью полноценная мойка пола. Промышленный робот-пылесос с влажной уборкой подметает, моет и собирает воду за один проход.</p>
+      <h3>Модели и бренды</h3><p>В каталоге серийные модели Pudu, Keenon (линейка Kleenbot), Viggo и Linkong: для ровных гладких полов, коврового покрытия и мойки фасадного остекления. Если подходящая позиция не нашлась, оставьте заявку: специалисты подберут модель с учётом площади, покрытия и графика работы объекта.</p>
+    </div>
+  </section>
+</div>
+<footer class="footer blk" data-tag="old" data-label="Существующий блок: подвал с реквизитами и документами, дополнен ссылками на направления и офисы">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <img src="../assets/img/logo.svg" alt="АТМ Альянс" style="height:36px;filter:brightness(0) invert(1);margin-bottom:12px">
+        <p>Группа компаний «АТМ Альянс»: производство, поставка и сервис банковского и кассового оборудования, роботы-уборщики, LED-плёнки и медиакубы. Сервисный партнёр Сбера, ТОП-5 поставщиков банковского оборудования России.</p>
+        <p><b style="color:#fff">8 800 200 62 32</b><br>+7 (495) 258 52 72<br>msk@atm72.ru<br>115114, Москва, Дербеневская наб., 11 кА, 4 этаж, оф. 412</p>
+      </div>
+      <div><h4>Каталог</h4><a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей в Тюмени</a><a href="#">Банкоматы Hyosung</a><a href="#">Кассы самообслуживания</a><a href="#">LED-экраны и панели</a></div>
+      <div><h4>Компания</h4><a href="#">О компании</a><a href="#">Сервисный центр</a><a href="#">Проекты и кейсы</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Стать партнёром</a><a href="#">Контакты и 75 офисов</a></div>
+      <div><h4>Документы</h4><a href="#">Реквизиты: ОГРН 1087232042259, ИНН 7204129189</a><a href="#">Сертификаты и свидетельства</a><a href="#">Брендбук</a><a href="#">Закупки</a><a href="#">Политика обработки персональных данных</a><a href="#">Карта сайта</a></div>
+    </div>
+    <div class="bottom"><span>ООО «АТМ Альянс», 2008-2026</span><span>Прототип. Цены «от», сроки и оценки, помеченные оранжевым, условные. <a href="../rationale.html" style="display:inline;padding:0;color:#fff;text-decoration:underline">Почему эти блоки: обоснование</a></span></div>
+  </div>
+</footer>
+
+<div class="sticky-bar blk" data-tag="res" data-label="Новый: липкая панель на мобильном">
+  <div class="price-mini"><b>9 моделей</b><span>подбор за рабочий день</span></div>
+  <a class="btn btn-primary" href="#" data-ask data-ask-title="Подобрать робот-уборщик" data-ask-sub="Укажите площадь, покрытие и график уборки">Подобрать</a>
+  <a class="btn btn-outline" href="tel:88002006232">Позвонить</a>
+</div>
+
+<div class="modal">
+  <form class="box" data-done="Принято, менеджер ответит в течение рабочего дня">
+    <button class="x" type="button" data-close-modal aria-label="Закрыть">✕</button>
+    <h3>Подобрать робот-уборщик</h3>
+    <div class="sub">Укажите площадь, тип покрытия и график уборки</div>
+    <div class="prod-line" style="display:none"><img src="../assets/img/pudu-cc1.png" alt=""><span></span></div>
+    <label class="field"><input type="text" placeholder="Имя" required></label>
+    <label class="field"><input type="tel" placeholder="Телефон или ник в Telegram" required></label>
+    <div class="row2"><label class="field"><input type="text" placeholder="Площадь, м²"></label><label class="field"><select><option>Плитка, керамогранит</option><option>Наливной пол, бетон</option><option>Ковролин</option><option>Стекло, фасад</option></select></label></div>
+    <label class="field"><input type="text" placeholder="Город и объект"></label>
+    <button class="btn btn-primary btn-block" type="submit" style="margin-top:6px">Отправить</button>
+    <div class="reply-note"><i></i>Ответим в течение рабочего дня, пн-пт 9:00-18:00</div>
+    <div class="consent">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</div>
+  </form>
+</div>
+
+<script src="../assets/app.js?v=1"></script>
+</body>
+</html>

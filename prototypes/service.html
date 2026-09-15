@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип: Заправка картриджей для принтеров в Тюмени, цены от 450 ₽. АТМ Альянс</title>
+<meta name="description" content="Прототип страницы услуги atm72.ru: заправка картриджей в Тюмени с ценой «от», прайсом по брендам, этапами, гарантией, адресом и картой, отзывами и FAQ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23E11D2E%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/styles.css?v=1">
+</head>
+<body>
+
+<!-- Панель прототипа -->
+<div class="proto-bar">
+  <span class="pb-title">Прототип «АТМ Альянс»</span>
+  <nav>
+    <a href="../index.html">Обзор</a>
+    <a href="home.html">Главная</a>
+    <a href="category.html">Раздел: роботы</a>
+    <a href="product.html">Карточка: Pudu CC1</a>
+    <a href="service.html">Услуга: заправка</a>
+  </nav>
+  <div class="pb-legend">
+    <span><i style="background:#6B7280"></i>Существующий блок</span>
+    <span><i style="background:#15803D"></i>Новый: по исследованию</span>
+    <button class="pb-toggle" data-toggle-tags>Скрыть пометки</button>
+  </div>
+</div>
+
+<!-- Верхняя полоса -->
+<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. География, режим, почта и статус официального поставщика в одну строку (karex, kiit, mnogochernil, gtlamp)">
+  <div class="container">
+    <span>Москва, Дербеневская наб., 11 кА</span>
+    <span class="hide-m">75 офисов, сервис в 44 городах</span>
+    <span class="hide-m">Пн-пт 9:00-18:00</span>
+    <span class="grow"></span>
+    <a class="hide-m" href="mailto:msk@atm72.ru">msk@atm72.ru</a>
+    <span class="direct">Официальный поставщик Pudu и Keenon, сервисный партнёр Сбера</span>
+  </div>
+</div>
+
+<!-- Шапка -->
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по товарным направлениям, телефон 8 800 с подписью, мессенджеры, кнопка «Запросить КП» (karex, robort, copygroup)">
+  <div class="container">
+    <a class="logo" href="home.html"><img src="../assets/img/logo.svg" alt="АТМ Альянс"></a>
+    <nav class="hnav">
+      <a href="category.html">Роботы-уборщики</a>
+      <a href="#">LED-плёнки</a>
+      <a href="#">Медиакубы</a>
+      <a href="service.html">Заправка картриджей</a>
+      <a href="#">Банковское оборудование</a>
+      <a href="#">Сервис</a>
+      <a href="#">О компании</a>
+    </nav>
+    <div class="hdr-phone"><b>8 800 200 62 32</b><span>бесплатно по России, пн-пт 9:00-18:00</span></div>
+    <div class="msgs">
+      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
+      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
+    </div>
+    <a class="btn btn-primary" href="#" data-ask data-ask-title="Запросить коммерческое предложение" data-ask-sub="Напишите, что нужно и для какого объекта. Менеджер ответит в течение рабочего дня">Запросить КП</a>
+    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<!-- Мобильное меню -->
+<div class="drawer">
+  <div class="panel">
+    <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Каталог</h4>
+    <a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей, Тюмень</a><a href="#">Банкоматы и кассы самообслуживания</a><a href="#">LED-экраны и панели</a>
+    <h4>Компания</h4>
+    <a href="#">Сервис и обслуживание</a><a href="#">О компании</a><a href="#">Проекты</a><a href="#">Контакты и офисы</a>
+    <h4>Связь</h4>
+    <a href="tel:88002006232">8 800 200 62 32</a><a href="tel:+74952585272">+7 (495) 258 52 72</a><a href="mailto:msk@atm72.ru">msk@atm72.ru</a><a href="#">Telegram</a><a href="#">WhatsApp</a><a href="#">MAX</a>
+  </div>
+</div>
+<div class="container" style="padding-top:18px">
+  <div class="crumbs blk blk-inline" data-tag="old" data-label="Существующий блок: хлебные крошки">
+    <a href="home.html">Главная</a><span class="sep">/</span><a href="#">Каталог</a><span class="sep">/</span><span>Заправка картриджей в Тюмени</span>
+  </div>
+</div>
+
+<!-- Первый экран услуги -->
+<section class="hero blk" id="hero" data-tag="mix" data-label="Существующий блок (H1 и 136 слов), переработан: цена «от», срок, адрес и гарантия на первом экране, форма расчёта по модели (copygroup, mnogochernil, complace, filpan)" style="background:linear-gradient(90deg,rgba(27,53,64,.95) 0,rgba(27,53,64,.85) 55%,rgba(27,53,64,.6) 100%),url('../assets/img/cart-hp.jpg') center/cover no-repeat var(--navy)">
+  <div class="container">
+    <div>
+      <span class="geo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Тюмень, ул. 50 лет ВЛКСМ, 16, сервисный центр АТМ Альянс, пн-пт 9:00-18:00</span>
+      <h1>Заправка картриджей для принтеров в Тюмени</h1>
+      <p class="lead">Сервисный центр заправляет картриджи лазерных и струйных принтеров HP, Canon, Brother, Kyocera, Ricoh, Pantum и других. Диагностика, полная разборка, засыпка тонера, замена изношенных деталей и чипа, обязательный тест печати перед выдачей. От 450 ₽, срок один рабочий день, для организаций по договору.</p>
+      <div class="bullets">
+        <div class="bullet"><b>От 450 ₽</b><span>HP, Canon, Brother, Ricoh. Kyocera от 850 ₽. Замена чипа по модели</span></div>
+        <div class="bullet"><b>1 рабочий день</b><span>Партии от 10 картриджей по согласованному графику</span></div>
+        <div class="bullet"><b>Гарантия качества печати</b><span>Дефект по вине сервиса устраняем бесплатно, тест-лист прикладываем</span></div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#price">Цены по брендам</a>
+        <a class="btn btn-outline btn-lg" href="#where" style="color:#fff;border-color:rgba(255,255,255,.4)">Как добраться</a>
+        <span class="note">Выездной диагностики нет: картриджи принимаются в сервисном центре</span>
+      </div>
+    </div>
+    <form class="hero-form" data-done="Принято, рассчитаем и перезвоним в рабочее время" id="calc">
+      <h3>Рассчитать стоимость заправки</h3>
+      <div class="sub">Укажите модель принтера или картриджа, ответим с ценой и сроком</div>
+      <label class="field"><span>Бренд</span><select><option>HP (серии CF, CE, 305, 106A)</option><option>Canon (725, 737, серия FX)</option><option>Brother (серия TN, сброс счётчика)</option><option>Kyocera (серия TK)</option><option>Ricoh (серия SP)</option><option>Pantum (PC-211, PC-230, M6500)</option><option>Xerox, Samsung, другой</option></select></label>
+      <div class="row2">
+        <label class="field"><span>Модель картриджа</span><input type="text" placeholder="например, CF283A"></label>
+        <label class="field"><span>Количество</span><input type="number" placeholder="1" min="1"></label>
+      </div>
+      <label class="field"><span>Телефон</span><input type="tel" placeholder="+7 (3452)" required></label>
+      <button class="btn btn-primary btn-block btn-lg" type="submit">Узнать цену и срок</button>
+      <div class="guarantee"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Ремонт согласуем до начала работ.</b> Если диагностика показала износ, объём и стоимость ремонта утверждаем с вами.</span></div>
+      <div class="reply-note"><i></i>Ответим в рабочее время в течение часа, 8 800 200 62 32</div>
+    </form>
+  </div>
+</section>
+
+<!-- Полоса фактов -->
+<div class="trust-strip blk" id="trust-strip" data-tag="res" data-label="Новый блок: по результатам исследования. Цифры услуги: цена, срок, этапы, гарантия, для юрлиц (copygroup, ink-market, complace)">
+  <div class="container">
+    <div class="item"><b>от 450 ₽</b><span>заправка картриджа HP, Canon, Brother, Ricoh</span></div>
+    <div class="item"><b>1 день</b><span>стандартный срок, партия от 10 штук по графику</span></div>
+    <div class="item"><b>6 этапов</b><span>диагностика, разборка, чистка, тонер, детали и чип, тест печати</span></div>
+    <div class="item"><b>3-5 циклов</b><span>выдерживает лазерный картридж с заменой фотовала и ракеля</span></div>
+    <div class="item"><b>Юрлицам</b><span>договор, закрывающие документы, КОСГУ 225 для бюджетных</span></div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Цены -->
+  <section class="section blk" id="price" data-tag="mix" data-label="Существующий блок (цены в брендовых подразделах), переработан: единый прайс на странице услуги из согласованного текста (copygroup /price, ink-market, complace, mnogochernil: прайс на 7 из 8 сайтов)">
+    <div class="section-head"><div><span class="eyebrow">Цены</span><h2>Сколько стоит заправка картриджа</h2><p>Цена зависит от бренда, ресурса картриджа и необходимости замены деталей и чипа. Точная стоимость после диагностики: на неё влияет объём бункера, замена фотовала или ракеля и тип тонера.</p></div><a class="btn btn-primary" href="#calc">Рассчитать по модели</a></div>
+    <div class="catalog-layout price">
+      <table class="pricelist">
+        <tr><th>Услуга</th><th>Стоимость</th><th>Срок</th></tr>
+        <tr><td>Картриджи HP</td><td class="p">от 450 ₽</td><td>1 рабочий день</td></tr>
+        <tr><td>Картриджи Canon</td><td class="p">от 450 ₽</td><td>1 рабочий день</td></tr>
+        <tr><td>Картриджи Brother, сброс счётчика тонера включён</td><td class="p">от 450 ₽</td><td>1 рабочий день</td></tr>
+        <tr><td>Картриджи Ricoh</td><td class="p">от 450 ₽</td><td>1 рабочий день</td></tr>
+        <tr><td>Картриджи Kyocera</td><td class="p">от 850 ₽</td><td>1 рабочий день</td></tr>
+        <tr><td>Картриджи Pantum, Xerox, Samsung и других брендов</td><td class="p">по модели</td><td>1 рабочий день</td></tr>
+        <tr><td>Замена чипа</td><td class="p">по модели</td><td>вместе с заправкой</td></tr>
+        <tr><td>Замена фотобарабана, ракеля, магнитного вала</td><td class="p">по диагностике</td><td>согласуем до работ</td></tr>
+        <tr><td>Ремонт оргтехники и компьютерной техники</td><td class="p">от 1 000 ₽</td><td>по диагностике</td></tr>
+      </table>
+      <div class="lead-card photo" style="background-image:linear-gradient(rgba(185,18,31,.86),rgba(150,10,22,.94)),url('../assets/img/cart-kyocera.jpg');min-height:auto">
+        <span class="eyebrow" style="color:#F6B4B9">Для организаций</span>
+        <h3>Партия от 10 картриджей по графику</h3>
+        <p>Дата готовности согласуется заранее, чтобы офисная техника не простаивала. Договор, счёт, акт и полный пакет закрывающих документов. Бюджетным учреждениям: подстатья 225 КОСГУ.</p>
+        <a class="btn btn-light" href="#" data-ask data-ask-title="Заправка партии для организации" data-ask-sub="Укажите модели, количество и желаемую дату готовности">Согласовать график</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Бренды -->
+  <section class="section blk" id="brands" data-tag="mix" data-label="Существующий блок (брендовые подразделы по 201 слову без картинок), переработан: плитка брендов с ценой «от» и серией картриджей, ссылки на подразделы (megacartridge, filpan, ink-market: разводка по брендам)" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Бренды</span><h2>Какие картриджи принимаем на заправку</h2><p>Тонер подбирается под конкретную модель: марка порошка влияет на плотность печати, сыпучесть и ресурс фотобарабана. Картриджи с учётом отпечатанных страниц заправляются с заменой чипа.</p></div></div>
+    <div class="brands">
+      <a href="#"><img src="../assets/img/cart-hp.jpg" alt="HP"><b>HP</b><span>серии CF и CE, 305, 106A. От 450 ₽</span></a>
+      <a href="#"><img src="../assets/img/cart-canon.jpg" alt="Canon"><b>Canon</b><span>725, 737, серия FX. От 450 ₽</span></a>
+      <a href="#"><img src="../assets/img/cart-brother.webp" alt="Brother"><b>Brother</b><span>серия TN, сброс счётчика. От 450 ₽</span></a>
+      <a href="#"><img src="../assets/img/cart-kyocera.jpg" alt="Kyocera"><b>Kyocera</b><span>серия TK для офисных МФУ. От 850 ₽</span></a>
+      <a href="#"><img src="../assets/img/cart-ricoh.jpg" alt="Ricoh"><b>Ricoh</b><span>серия SP. От 450 ₽</span></a>
+      <a href="#"><img src="../assets/img/ricoh.jpg" alt="Pantum"><b>Pantum</b><span>PC-211, PC-211EV, PC-230, M6500, P2200. По модели</span></a>
+    </div>
+    <p class="muted small" style="margin-top:12px">Заправка картриджа Pantum PC-211 и совместимых PC-211EV и PC-230 самая востребованная в офисах Тюмени: требует обязательной замены чипа, иначе принтер продолжит показывать нулевой ресурс. Струйные картриджи со встроенной печатающей головкой имеют ограниченный ресурс, целесообразность заправки показывает диагностика.</p>
+  </section>
+
+  <!-- Этапы -->
+  <section class="section blk" id="stages" data-tag="res" data-label="Новый блок: по результатам исследования. Шесть этапов из согласованного текста с картинками (copygroup, oncopy, complace: «как мы работаем» и этапы)">
+    <div class="section-head"><div><span class="eyebrow">Как заправляем</span><h2>Шесть этапов диагностики и заправки</h2><p>Работы выполняются по регламенту. Если диагностика показывает необходимость ремонта, его объём и стоимость согласовываются до начала работ. Ремонт и заправка в одном сервисном центре, дополнительная транспортировка не требуется.</p></div></div>
+    <div class="steps three">
+      <div><b class="num">1</b><h3>Приём и диагностика</h3><p>Проверяем корпус, фотовал, ракель и магнитный вал, снимаем тест печати до начала работ.</p></div>
+      <div><b class="num">2</b><h3>Разборка</h3><p>Полностью разбираем картридж, бункер отработки очищаем от остатков тонера.</p></div>
+      <div><b class="num">3</b><h3>Очистка узлов</h3><p>Продувка, чистка дозирующего лезвия и контактных групп.</p></div>
+      <div><b class="num">4</b><h3>Засыпка тонера</h3><p>Порошок под конкретную модель, норма засыпки контролируется по весу.</p></div>
+      <div><b class="num">5</b><h3>Замена деталей и чипа</h3><p>При износе меняем фотобарабан, ракель и магнитный вал; чип обнуляем или ставим новый.</p></div>
+      <div><b class="num">6</b><h3>Сборка и тест печати</h3><p>Каждый картридж проходит контрольную печать, лист прикладываем при выдаче.</p></div>
+    </div>
+  </section>
+
+  <!-- Заправка или новый -->
+  <section class="section blk" id="vs" data-tag="res" data-label="Новый блок: по результатам исследования. Заправка против нового картриджа с расчётом экономии из согласованного текста (mnogochernil, ink-market: сравнение выгоды)" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Что выгоднее</span><h2>Заправка или новый картридж</h2><p>Для офиса, расходующего два или три картриджа в месяц, разница за год превращается в существенную экономию. Результат диагностики показывает, какой вариант целесообразен.</p></div></div>
+    <div class="vs">
+      <div class="good"><h3>Заправка</h3><div class="big">от 450 ₽</div><ul><li>Корпус целый, без трещин и подтёков тонера</li><li>Фотобарабан и ракель не выработали ресурс либо подлежат замене</li><li>Модель допускает замену или обнуление чипа</li><li>Лазерный картридж выдерживает 3-5 циклов</li></ul></div>
+      <div><h3>Новый оригинальный картридж</h3><div class="big">от 3 000 ₽</div><ul><li>Износ корпуса, повреждение вала</li><li>Струйные картриджи со встроенной печатающей головкой</li><li>После 3-5 циклов заправки качество печати снижается</li><li>Экономия за год при 3 картриджах в месяц: <span class="fill">около 90 000 ₽</span></li></ul></div>
+    </div>
+  </section>
+
+  <!-- Сроки и гарантия -->
+  <section class="section blk" id="warranty" data-tag="mix" data-label="Существующий блок (абзац про гарантию), переработан: сроки, гарантия и исключения тремя карточками (copygroup, complace, oncopy: гарантия на 8 из 8 сайтов ниши)">
+    <div class="section-head"><div><span class="eyebrow">Сроки и гарантия</span><h2>Когда будет готово и что гарантируем</h2></div></div>
+    <div class="tariffs">
+      <div class="tariff best"><div class="pic"><img src="../assets/img/cart-hp.jpg" alt=""></div><h3>Срок <span class="chip brand">1 рабочий день</span></h3><div class="kv"><span>Стандарт</span><b>один рабочий день</b></div><div class="kv"><span>Партия от 10</span><b>дата по согласованию</b></div><div class="kv"><span>Экспресс</span><b><span class="fill">условия</span></b></div><p class="note">График для партий строится так, чтобы офисная техника работала без простоя.</p></div>
+      <div class="tariff"><div class="pic"><img src="../assets/img/cart-canon.jpg" alt=""></div><h3>Гарантия <span class="chip ok">качество печати</span></h3><div class="kv"><span>Дефект по вине сервиса</span><b>повторная заправка бесплатно</b></div><div class="kv"><span>Тест-лист</span><b>прикладываем при выдаче</b></div><div class="kv"><span>Сброс счётчика Brother</span><b>без отдельной оплаты</b></div><p class="note">Полосы, бледная печать или «принтер не видит картридж» после заправки: принимаем на разбор по гарантии.</p></div>
+      <div class="tariff"><div class="pic"><img src="../assets/img/cart-brother.webp" alt=""></div><h3>Не покрывается <span class="chip sand">исключения</span></h3><div class="kv"><span>Механика</span><b>повреждения после выдачи</b></div><div class="kv"><span>Износ</span><b>фотобарабан, выявленный при диагностике</b></div><div class="kv"><span>Струйные</span><b>ресурс встроенной головки</b></div><p class="note">О таких случаях предупреждаем на диагностике до начала работ.</p></div>
+    </div>
+  </section>
+
+  <!-- Где -->
+  <section class="section blk" id="where" data-tag="mix" data-label="Существующий блок (адрес в тексте), переработан: карта, адрес, режим, как добраться, парковка, NAP для локальной выдачи (complace, copygroup: адреса с картой; в Тюмени ТОП занимают 2ГИС и Яндекс Услуги)" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Где заправить</span><h2>Сервисный центр в Тюмени, ул. 50 лет ВЛКСМ, 16</h2><p>Обслуживание проводится только в сервисном центре, выездная диагностика не предоставляется.</p></div></div>
+    <div class="route">
+      <div class="card">
+        <div class="row"><span>Адрес</span><span>Тюмень, ул. 50 лет ВЛКСМ, д. 16. <span class="fill">этаж, вход, ориентир</span></span></div>
+        <div class="row"><span>Режим</span><span>Понедельник-пятница с 9:00 до 18:00, суббота и воскресенье выходные</span></div>
+        <div class="row"><span>Телефон и почта</span><span>8 800 200 62 32 (бесплатно), info@atm72.ru. Для расчёта нужна модель картриджа или принтера</span></div>
+        <div class="row"><span>Как добраться</span><span><span class="fill">остановка транспорта, парковка, время от центра</span></span></div>
+        <div class="row"><span>Оплата</span><span>Наличные и карта для частных клиентов, счёт и договор для организаций, закрывающие документы</span></div>
+        <div class="near">
+          <div><b>Яндекс Карты</b><span>карточка сервисного центра, <span class="fill">рейтинг</span></span></div>
+          <div><b>2ГИС</b><span>карточка и отзывы, <span class="fill">рейтинг</span></span></div>
+          <div><b>Яндекс Услуги</b><span>профиль исполнителя, <span class="fill">оценка</span></span></div>
+          <div><b>Ремонт оргтехники</b><span>здесь же, от 1 000 ₽</span></div>
+        </div>
+      </div>
+      <a class="map-img" href="https://yandex.ru/maps/?text=%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%20%D1%83%D0%BB.%2050%20%D0%BB%D0%B5%D1%82%20%D0%92%D0%9B%D0%9A%D0%A1%D0%9C%2016" target="_blank" rel="noopener"><img src="../assets/img/map-tyumen.png" alt="Карта: сервисный центр АТМ Альянс в Тюмени"><span>Открыть в Яндекс Картах: маршрут до ул. 50 лет ВЛКСМ, 16</span></a>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section blk" id="reviews" data-tag="res" data-label="Новый блок: по результатам исследования. Отзывы клиентов сервисного центра с площадок (mnogochernil 249, ink-market 118 отзывов в Яндексе; в выдаче Тюмени 2ГИС и Яндекс Услуги)">
+    <div class="section-head"><div><span class="eyebrow">Отзывы</span><h2>Что пишут клиенты сервисного центра</h2><p>Для запуска собрать отзывы с Яндекс Карт и 2ГИС по адресу и добавить ответы сервиса.</p></div></div>
+    <div class="rating-row">
+      <div class="rating-box"><b><span class="fill">4,8</span></b><span>Яндекс Карты<br><span class="fill">N</span> отзывов</span></div>
+      <div class="rating-box"><b><span class="fill">4,9</span></b><span>2ГИС<br><span class="fill">N</span> отзывов</span></div>
+      <div class="rating-box"><b>17 лет</b><span>сервиса оргтехники<br>и банковского оборудования</span></div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev"><div class="pic"><img src="../assets/img/cart-hp.jpg" alt=""></div><div class="stars">★★★★★</div><p><span class="fill">Отзыв: партия картриджей для офиса, срок, качество печати, документы.</span></p><div class="who"><i>Е</i><span>Офис-менеджер, Тюмень</span></div></div>
+      <div class="rev"><div class="pic"><img src="../assets/img/cart-brother.webp" alt=""></div><div class="stars">★★★★★</div><p><span class="fill">Отзыв: Brother, сброс счётчика, всё заработало.</span></p><div class="who"><i>Д</i><span>Частный клиент</span></div></div>
+      <div class="rev"><div class="pic"><img src="../assets/img/cart-kyocera.jpg" alt=""></div><div class="stars">★★★★★</div><p><span class="fill">Отзыв: Kyocera TK, замена ракеля по диагностике, предупредили заранее.</span></p><div class="who"><i>Н</i><span>Бухгалтерия, бюджетное учреждение</span></div></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section blk" id="faq" data-tag="res" data-label="Новый блок: по результатам исследования. Семь вопросов из согласованного текста с разметкой FAQPage: 59 из 195 запросов ниши информационные, «после заправки», «сбросить счётчик», «КОСГУ» (copygroup, mnogochernil, filpan: FAQ на 7 из 8 сайтов)" style="background:var(--surface);border-top:1px solid var(--line);margin:0 -24px;padding-left:24px;padding-right:24px">
+    <div class="section-head"><div><span class="eyebrow">Частые вопросы</span><h2>Что спрашивают о заправке картриджей</h2><p>Треть запросов направления информационные: «почему после заправки печатает полосами», «как сбросить счётчик Brother», «по какому КОСГУ». Ответы на странице дают расширенный сниппет и закрывают эти запросы.</p></div></div>
+    <div class="faq-2">
+      <div class="faq">
+        <details open><summary>Сколько стоит заправка картриджа для принтера?</summary><div class="a">От 450 ₽ для HP, Canon, Brother и Ricoh, от 850 ₽ для Kyocera. Итоговая цена зависит от модели и необходимости замены чипа или изношенных деталей.</div></details>
+        <details><summary>Нужно ли менять чип при заправке?</summary><div class="a">Зависит от модели. Картриджи HP, Canon и Pantum PC-211 ведут счётчик страниц, без замены или обнуления чипа принтер покажет пустой картридж даже после заправки. У Kyocera и части моделей Brother чип не меняется.</div></details>
+        <details><summary>Как сбросить счётчик тонера на принтере Brother?</summary><div class="a">У большинства моделей серий HL, DCP и MFC счётчик сбрасывается через сервисное меню либо механическим переводом флажка на крышке, последовательность зависит от модели. При заправке в сервисном центре счётчик сбрасывает специалист, отдельная оплата не взимается.</div></details>
+        <details><summary>Сколько раз можно заправлять картридж?</summary><div class="a">Лазерный картридж выдерживает в среднем от трёх до пяти циклов с заменой фотовала и ракеля по мере износа. Дальше качество печати снижается, надёжнее установить новый картридж.</div></details>
+      </div>
+      <div class="faq">
+        <details><summary>Почему после заправки принтер печатает полосами или бледно?</summary><div class="a">Износ фотобарабана или ракеля, неравномерное распределение тонера после транспортировки, загрязнение контактов, несоответствие тонера модели. Вертикальные полосы обычно указывают на ракель, бледная печать по всему листу на нехватку тонера или износ магнитного вала. Картридж принимается на разбор и устранение дефекта по гарантии.</div></details>
+        <details><summary>Почему принтер не видит картридж после заправки?</summary><div class="a">Чаще всего причина в чипе: не заменён, установлен от другой ревизии либо окислились контакты. Реже неисправность в самом принтере. Точную причину показывает диагностика.</div></details>
+        <details><summary>По какому КОСГУ проводить заправку картриджей?</summary><div class="a">Бюджетные учреждения, как правило, относят заправку к подстатье 225 КОСГУ как работы по содержанию имущества. Порядок зависит от учётной политики, при необходимости документы оформляются с нужной формулировкой.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Заявка -->
+  <section class="section blk" id="ask" data-tag="res" data-label="Новый блок: по результатам исследования. Заявка на заправку с моделью и количеством, мессенджеры (copygroup, complace, oncopy)">
+    <div class="calc">
+      <div>
+        <span class="eyebrow" style="color:#F6B4B9">Заявка</span>
+        <h2>Оставить заявку на заправку картриджей</h2>
+        <p>Укажите модель принтера или картриджа и количество, ответим с ценой и датой готовности. Организациям оформим договор и закрывающие документы.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Ответ в рабочее время в течение часа</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Тест-лист и гарантия качества печати</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Telegram, WhatsApp, MAX или 8 800 200 62 32</li>
+        </ul>
+        <div class="pic"><img src="../assets/img/cart-ricoh.jpg" alt="Картриджи Ricoh"></div>
+      </div>
+      <form class="form" data-done="Принято, ответим с ценой и сроком в рабочее время">
+        <div class="row2"><label class="field"><input type="text" placeholder="Имя или организация" required></label><label class="field"><input type="tel" placeholder="Телефон" required></label></div>
+        <div class="row2"><label class="field"><input type="text" placeholder="Модель принтера или картриджа"></label><label class="field"><input type="number" placeholder="Количество" min="1"></label></div>
+        <label class="field"><textarea rows="3" placeholder="Что беспокоит: полосы, бледная печать, принтер не видит картридж"></textarea></label>
+        <button class="btn btn-primary btn-block" type="submit">Оставить заявку на заправку</button>
+        <div class="consent">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</div>
+      </form>
+    </div>
+  </section>
+</div>
+<footer class="footer blk" data-tag="old" data-label="Существующий блок: подвал с реквизитами и документами, дополнен ссылками на направления и офисы">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <img src="../assets/img/logo.svg" alt="АТМ Альянс" style="height:36px;filter:brightness(0) invert(1);margin-bottom:12px">
+        <p>Группа компаний «АТМ Альянс»: производство, поставка и сервис банковского и кассового оборудования, роботы-уборщики, LED-плёнки и медиакубы. Сервисный партнёр Сбера, ТОП-5 поставщиков банковского оборудования России.</p>
+        <p><b style="color:#fff">8 800 200 62 32</b><br>+7 (495) 258 52 72<br>msk@atm72.ru<br>115114, Москва, Дербеневская наб., 11 кА, 4 этаж, оф. 412</p>
+      </div>
+      <div><h4>Каталог</h4><a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей в Тюмени</a><a href="#">Банкоматы Hyosung</a><a href="#">Кассы самообслуживания</a><a href="#">LED-экраны и панели</a></div>
+      <div><h4>Компания</h4><a href="#">О компании</a><a href="#">Сервисный центр</a><a href="#">Проекты и кейсы</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Стать партнёром</a><a href="#">Контакты и 75 офисов</a></div>
+      <div><h4>Документы</h4><a href="#">Реквизиты: ОГРН 1087232042259, ИНН 7204129189</a><a href="#">Сертификаты и свидетельства</a><a href="#">Брендбук</a><a href="#">Закупки</a><a href="#">Политика обработки персональных данных</a><a href="#">Карта сайта</a></div>
+    </div>
+    <div class="bottom"><span>ООО «АТМ Альянс», 2008-2026</span><span>Прототип. Цены «от», сроки и оценки, помеченные оранжевым, условные. <a href="../rationale.html" style="display:inline;padding:0;color:#fff;text-decoration:underline">Почему эти блоки: обоснование</a></span></div>
+  </div>
+</footer>
+
+<div class="sticky-bar blk" data-tag="res" data-label="Новый: липкая панель на мобильном с ценой и заявкой">
+  <div class="price-mini"><b>от 450 ₽</b><span>заправка, 1 рабочий день</span></div>
+  <a class="btn btn-primary" href="#calc">Рассчитать</a>
+  <a class="btn btn-outline" href="tel:88002006232">Позвонить</a>
+</div>
+
+<div class="modal">
+  <form class="box" data-done="Принято, ответим в рабочее время">
+    <button class="x" type="button" data-close-modal aria-label="Закрыть">✕</button>
+    <h3>Заявка на заправку</h3>
+    <div class="sub">Укажите модель и количество</div>
+    <div class="prod-line" style="display:none"><img src="../assets/img/cart-hp.jpg" alt=""><span></span></div>
+    <label class="field"><input type="text" placeholder="Имя или организация" required></label>
+    <label class="field"><input type="tel" placeholder="Телефон" required></label>
+    <div class="row2"><label class="field"><input type="text" placeholder="Модель картриджа"></label><label class="field"><input type="number" placeholder="Количество" min="1"></label></div>
+    <button class="btn btn-primary btn-block" type="submit" style="margin-top:6px">Отправить</button>
+    <div class="reply-note"><i></i>Ответим в рабочее время, пн-пт 9:00-18:00</div>
+    <div class="consent">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</div>
+  </form>
+</div>
+
+<script src="../assets/app.js?v=1"></script>
+</body>
+</html>
