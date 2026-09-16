@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Прототип: Главная. АТМ Альянс: роботы-уборщики, LED-плёнки, медиакубы, банковское оборудование</title>
-<meta name="description" content="Прототип главной страницы atm72.ru: направления с ценой «от», модели роботов-уборщиков, аргументы поставщика, сегменты, кейсы, отзывы, офисы, FAQ.">
+<title>Прототип: Главная. АТМ Альянс: текущий шаблон плюс новые блоки по исследованию</title>
+<meta name="description" content="Прототип главной страницы atm72.ru: текущие блоки сохранены (видеофон, направления деятельности, продукция, пресс-центр, партнёры, контакты, подвал), между ними добавлены направления с ценой «от», модели роботов, аргументы поставщика, сегменты, кейсы, отзывы, FAQ и подбор под объект.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
@@ -30,104 +30,51 @@
   </div>
 </div>
 
-<!-- Верхняя полоса -->
-<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. География, режим, почта и статус официального поставщика в одну строку (karex, kiit, mnogochernil, gtlamp)">
+<!-- Шапка сайта (воспроизведена) -->
+<div class="site-hdr blk" id="top" data-tag="mix" data-label="Существующий блок сохранён: кнопка меню, флаг, логотип, телефон и почта, поиск, «Напишите нам». Добавлено: меню по направлениям и мессенджеры (karex, robort, copygroup)">
   <div class="container">
-    <span>Москва, Дербеневская наб., 11 кА</span>
-    <span class="hide-m">75 офисов, сервис в 44 городах</span>
-    <span class="hide-m">Пн-пт 9:00-18:00</span>
-    <span class="grow"></span>
-    <a class="hide-m" href="mailto:msk@atm72.ru">msk@atm72.ru</a>
-    <span class="direct">Официальный поставщик Pudu и Keenon, сервисный партнёр Сбера</span>
+    <button class="ham" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <span class="flag"></span>
+    <a class="logo" href="home.html"><img src="../assets/img/logo.svg" alt="АТМ Альянс"></a>
+    <nav class="nav">
+      <a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей</a><a href="#">Банковское оборудование</a><a href="#">Сервис</a><a href="#" title="Telegram">Telegram</a><a href="#" title="WhatsApp">WhatsApp</a>
+    </nav>
+    <div class="cnt"><b>+7 800 200 62 32</b>msk@atm72.ru</div>
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
+    <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span>
   </div>
 </div>
+<a class="site-fab" href="#" data-ask data-ask-title="Напишите нам" data-ask-sub="Ответим в течение рабочего дня"><i></i>Напишите нам</a>
 
-<!-- Шапка -->
-<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по товарным направлениям, телефон 8 800 с подписью, мессенджеры, кнопка «Запросить КП» (karex, robort, copygroup)">
-  <div class="container">
-    <a class="logo" href="home.html"><img src="../assets/img/logo.svg" alt="АТМ Альянс"></a>
-    <nav class="hnav">
-      <a href="category.html">Роботы-уборщики</a>
-      <a href="#">LED-плёнки</a>
-      <a href="#">Медиакубы</a>
-      <a href="service.html">Заправка картриджей</a>
-      <a href="#">Банковское оборудование</a>
-      <a href="#">Сервис</a>
-      <a href="#">О компании</a>
-    </nav>
-    <div class="hdr-phone"><b>8 800 200 62 32</b><span>бесплатно по России, пн-пт 9:00-18:00</span></div>
-    <div class="msgs">
-      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
-      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
-      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
-    </div>
-    <a class="btn btn-primary" href="#" data-ask data-ask-title="Запросить коммерческое предложение" data-ask-sub="Напишите, что нужно и для какого объекта. Менеджер ответит в течение рабочего дня">Запросить КП</a>
-    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-  </div>
-</header>
-
-<!-- Мобильное меню -->
+<!-- Мобильное меню (гамбургер, как на сайте, плюс направления) -->
 <div class="drawer">
   <div class="panel">
     <button class="close" data-close-menu aria-label="Закрыть">✕</button>
-    <h4>Каталог</h4>
-    <a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей, Тюмень</a><a href="#">Банкоматы и кассы самообслуживания</a><a href="#">LED-экраны и панели</a>
-    <h4>Компания</h4>
-    <a href="#">Сервис и обслуживание</a><a href="#">О компании</a><a href="#">Проекты</a><a href="#">Контакты и офисы</a>
+    <h4>Направления (новое)</h4>
+    <a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей, Тюмень</a>
+    <h4>Меню сайта (как сейчас)</h4>
+    <a href="#">Компания</a><a href="#">Руководство</a><a href="#">Брендбук</a><a href="#">Закупки</a><a href="#">Документы</a><a href="#">Проекты</a><a href="#">Вакансии</a><a href="#">Услуги</a><a href="#">Продукция</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Контакты</a><a href="#">Стать партнером</a>
     <h4>Связь</h4>
-    <a href="tel:88002006232">8 800 200 62 32</a><a href="tel:+74952585272">+7 (495) 258 52 72</a><a href="mailto:msk@atm72.ru">msk@atm72.ru</a><a href="#">Telegram</a><a href="#">WhatsApp</a><a href="#">MAX</a>
+    <a href="tel:88002006232">8 800 200 62 32</a><a href="mailto:msk@atm72.ru">msk@atm72.ru</a><a href="#">Telegram</a><a href="#">WhatsApp</a>
   </div>
 </div>
-<!-- Первый экран -->
-<section class="hero blk" id="hero" data-tag="mix" data-label="Существующий блок (слайдер «Производство, продажа и сервис»), переработан: четыре направления, три факта и форма подбора вместо баннера (karex, kiit, copygroup, gtlamp)">
+<!-- Первый экран: как на сайте -->
+<section class="site-hero blk" id="hero" data-tag="mix" data-label="Существующий блок сохранён: видеофон, «АТМ Альянс, международная торгово-промышленная группа», H1. Добавлена строка с четырьмя направлениями">
+  <div class="ov"></div>
   <div class="container">
-    <div>
-      <span class="geo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>75 офисов и складов, сервис в 44 городах России, головной офис в Москве</span>
-      <h1>Роботы-уборщики, LED-плёнки и медиакубы, банковское оборудование и сервис для бизнеса</h1>
-      <p class="lead">АТМ Альянс поставляет и обслуживает оборудование с 2008 года: роботы Pudu и Keenon для ТЦ, складов и отелей, прозрачные LED-экраны на витрины, рекламные медиакубы, банкоматы и кассы самообслуживания. Пусконаладка на объекте, гарантия производителя, договор с закрывающими документами.</p>
-      <div class="bullets">
-        <div class="bullet"><b>Демонстрация на объекте</b><span>Тестовый запуск робота-уборщика или образец LED-плёнки до покупки</span></div>
-        <div class="bullet"><b>Сервис 7 дней в неделю</b><span>700 000 объектов на обслуживании, 5 000 заявок в день, запчасти на складе</span></div>
-        <div class="bullet"><b>ТОП-5 поставщиков</b><span>Банковского оборудования в России, сервисный партнёр Сбера по POS</span></div>
-      </div>
-      <div class="cta-row">
-        <a class="btn btn-primary btn-lg" href="category.html">Смотреть каталог</a>
-        <a class="btn btn-outline btn-lg" href="#" style="color:#fff;border-color:rgba(255,255,255,.4)" data-ask data-ask-title="Подобрать оборудование" data-ask-sub="Опишите объект и задачу, менеджер предложит модель и цену в течение рабочего дня">Подобрать под объект</a>
-        <span class="note">Или напишите в Telegram, ответим в рабочее время в течение часа</span>
-      </div>
-    </div>
-    <form class="hero-form" data-done="Принято, менеджер свяжется в течение рабочего дня">
-      <h3>Рассчитать стоимость</h3>
-      <div class="sub">Коммерческое предложение с ценой, комплектацией и сроком поставки</div>
-      <label class="field"><span>Что нужно</span><select><option>Робот-уборщик для помещения</option><option>Прозрачная LED-плёнка на витрину</option><option>Медиакуб или рекламный куб</option><option>Заправка картриджей (Тюмень)</option><option>Банкомат или касса самообслуживания</option><option>Сервис банковского оборудования</option></select></label>
-      <div class="row2">
-        <label class="field"><span>Площадь или размер</span><input type="text" placeholder="например, 3 000 м²"></label>
-        <label class="field"><span>Город</span><input type="text" placeholder="Москва"></label>
-      </div>
-      <label class="field"><span>Телефон или email</span><input type="tel" placeholder="+7" required></label>
-      <button class="btn btn-primary btn-block btn-lg" type="submit">Получить расчёт</button>
-      <div class="guarantee"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Гарантия производителя</b> и пусконаладка сервисной службой АТМ Альянс на объекте заказчика.</span></div>
-      <div class="reply-note"><i></i>Ответ в течение рабочего дня, без звонков «для уточнения»</div>
-    </form>
+    <div class="brand">АТМ АЛЬЯНС</div>
+    <div class="sub">Международная торгово-промышленная группа</div>
+    <h1>Производство, продажа и сервис банковского и кассового оборудования</h1>
+    <p style="margin:14px 0 0;max-width:640px;color:#fff;font-size:15px">Роботы-уборщики Pudu и Keenon, прозрачные LED-плёнки, медиакубы и заправка картриджей в Тюмени. <span class="fill">новая строка под H1</span></p>
   </div>
+  <span class="video-note">Видеофон как на сайте: видеоролик с постером, здесь показан постер</span>
 </section>
 
-<!-- Полоса цифр -->
-<div class="trust-strip blk" id="trust-strip" data-tag="mix" data-label="Существующий блок («Компания в цифрах» на странице «О компании»), перенесён на главную (kiit, karex, mnogochernil: цифры на первом экране)">
-  <div class="container">
-    <div class="item"><b>17 лет</b><span>обслуживания банковского оборудования, компания основана в 2008 году в Тюмени</span></div>
-    <div class="item"><b>75 офисов</b><span>и складов по России, 6 стран присутствия, 1 800 сотрудников</span></div>
-    <div class="item"><b>700 000</b><span>объектов на сервисном обслуживании, 5 000 заявок выполняем ежедневно</span></div>
-    <div class="item"><b>44 города</b><span>сервиса POS-терминалов как партнёр Сбера, 85 регионов покрытия</span></div>
-    <div class="item"><b>ТОП-5</b><span>поставщиков банковского оборудования России по выручке группы компаний</span></div>
-  </div>
-</div>
-
-<!-- Направления -->
-<section class="section blk" id="niches" data-tag="mix" data-label="Существующий блок («Продукция» плиткой), переработан: четыре продвигаемых направления с ориентиром по цене и сегментами, банковское оборудование отдельной строкой (kiit, karex, ink-market)">
+<!-- Новый ряд направлений -->
+<section class="section blk" id="directions" data-tag="res" data-label="Новый блок: по результатам исследования. Четыре продвигаемых направления с параметрами и ценой «от» сразу под первым экраном (kiit, karex, interid)" style="padding-top:34px">
   <div class="container">
     <div class="section-head">
-      <div><span class="eyebrow">Что поставляем</span><h2>Четыре направления для коммерческих объектов</h2><p>По каждому направлению отдельный раздел с моделями, характеристиками и ценой «от». Спрос на роботов-уборщиков вырос почти втрое за два года, на медиакубы вдвое, и по этим темам сайт уже виден в выдаче, но без цен и карточек не собирает переходов.</p></div>
+      <div><span class="eyebrow">Что поставляем</span><h2>Четыре направления для коммерческих объектов</h2><p>Сейчас, чтобы понять, что продаёт компания, нужно открыть гамбургер или дойти до «Продукции», где нет роботов и LED-плёнок. Цены «от» условные и заполняются клиентом.</p></div>
     </div>
     <div class="room-grid four">
       <article class="room"><div class="pic"><img src="../assets/img/pudu-day.jpg" alt="Робот-уборщик Pudu в торговом зале"><div class="badges"><span class="chip ok">9 моделей</span><span class="chip">Pudu, Keenon, Viggo, Linkong</span></div></div><div class="body"><h3><a href="category.html">Роботы-уборщики и полотёры</a></h3><div class="meta"><span>700-1 100 м²/ч</span><span>мойка, подметание, вакуум</span><span>шум до 70 дБ</span></div><div class="incl"><span>пусконаладка</span><span>обучение персонала</span><span>демонстрация</span></div><div class="p-row"><div class="price">от <span class="fill">N NNN NNN</span> ₽<small>за робота с базовым комплектом</small></div><span class="term">ТЦ, склады,<br>отели, аэропорты</span></div><div class="actions"><a class="btn btn-primary" href="category.html">Модели и цены</a><a class="btn btn-outline" href="product.html">Pudu CC1</a></div></div></article>
@@ -135,12 +82,49 @@
       <article class="room"><div class="pic"><img src="../assets/img/kub-uniqlo.jpg" alt="Медиакуб в торговом зале"><div class="badges"><span class="chip ok">Собственное производство</span></div></div><div class="body"><h3><a href="#">Медиакубы и рекламные кубы</a></h3><div class="meta"><span>320 × 320 и 480 × 480 мм</span><span>5 граней</span><span>P1.86, до 5 000 кд</span></div><div class="incl"><span>кронштейн под RAL</span><span>сборка на площадке АТМ</span><span>контент под задачу</span></div><div class="p-row"><div class="price">от <span class="fill">NNN NNN</span> ₽<small>куб 320 мм с кронштейном</small></div><span class="term">банки, ТЦ,<br>зоны самообслуживания</span></div><div class="actions"><a class="btn btn-primary" href="#">Размеры и цены</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Рассчитать медиакуб" data-ask-sub="Укажите размер, количество и город">Расчёт</a></div></div></article>
       <article class="room"><div class="pic"><img src="../assets/img/cart-hp.jpg" alt="Картриджи HP"><div class="badges"><span class="chip ok">Тюмень</span><span class="chip">1 рабочий день</span></div></div><div class="body"><h3><a href="service.html">Заправка картриджей в Тюмени</a></h3><div class="meta"><span>HP, Canon, Brother</span><span>Kyocera, Ricoh, Pantum</span><span>замена чипа</span></div><div class="incl"><span>тест печати</span><span>гарантия</span><span>договор для юрлиц</span></div><div class="p-row"><div class="price">от 450 ₽<small>за картридж HP, Canon, Brother</small></div><span class="term">ул. 50 лет ВЛКСМ, 16<br>пн-пт 9:00-18:00</span></div><div class="actions"><a class="btn btn-primary" href="service.html">Цены и сроки</a><a class="btn btn-outline" href="service.html#calc">Рассчитать</a></div></div></article>
     </div>
-    <div class="info-grid cols-4" style="margin-top:16px">
-      <a class="info" href="#" style="text-decoration:none"><h3>Банкоматы Hyosung</h3><p>Модели с функцией выдачи и приёма, MX5600S и другие, поставка и сервис.</p></a>
-      <a class="info" href="#" style="text-decoration:none"><h3>Кассы самообслуживания</h3><p>ЕРМАК С21 и решения для ритейла, интеграция с кассовым ПО.</p></a>
-      <a class="info" href="#" style="text-decoration:none"><h3>LED-экраны и проф. панели</h3><p>Видеостены и рекламные экраны для залов, витрин и фасадов.</p></a>
-      <a class="info" href="#" style="text-decoration:none"><h3>Сервис банковского оборудования</h3><p>Сервисный центр, клининг банкоматов и терминалов, 700 000 объектов.</p></a>
+  </div>
+</section>
+
+<!-- Основные направления деятельности: как на сайте -->
+<section class="site-blue site-sec blk" id="napr" data-tag="old" data-label="Существующий блок сохранён без изменений: «Основные направления деятельности», два пункта, кнопки «Продукция» и «Услуги», видео RuTube">
+  <div class="container" style="display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center">
+    <div>
+      <h2>Основные направления деятельности</h2>
+      <ul class="site-list">
+        <li>Производство, продажа банковского и кассового оборудования</li>
+        <li>Комплексное сервисное обслуживание банковского и кассового оборудования</li>
+      </ul>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="site-btn" href="#niches">Продукция</a><a class="site-btn" href="#">Услуги</a></div>
     </div>
+    <div class="site-video">Видео RuTube, как на сайте сейчас (встраиваемый плеер)</div>
+  </div>
+</section>
+
+<!-- Полоса цифр -->
+<div class="trust-strip blk" id="trust-strip" data-tag="res" data-label="Новый блок на главной: «Компания в цифрах» перенесена со страницы «О компании» (kiit, karex, mnogochernil: цифры на первом экране)">
+  <div class="container">
+    <div class="item"><b>17 лет</b><span>обслуживания банковского оборудования, компания основана в 2008 году</span></div>
+    <div class="item"><b>75 офисов</b><span>по России, 6 стран присутствия, более 1 500 инженеров</span></div>
+    <div class="item"><b>700 000</b><span>объектов на сервисном обслуживании, 5 000 заявок выполняем ежедневно</span></div>
+    <div class="item"><b>44 города</b><span>сервиса POS-терминалов как партнёр Сбера, 85 регионов покрытия</span></div>
+    <div class="item"><b>ТОП-5</b><span>поставщиков банковского оборудования России по выручке группы компаний</span></div>
+  </div>
+</div>
+
+<!-- Продукция: как на сайте, дополнена двумя плитками -->
+<section class="site-sec light blk" id="niches" data-tag="mix" data-label="Существующий блок сохранён: заголовок, подпись, четыре плитки и кнопка «Весь каталог». Добавлены две плитки: «Роботы-уборщики» и «LED-плёнки», которых на главной нет (kiit, karex, ink-market)" style="background:#fff">
+  <div class="container">
+    <h2 style="margin-bottom:8px">Продукция</h2>
+    <p style="color:var(--ink-2);margin:0">Производство, продажа банковского и кассового оборудования</p>
+    <div class="site-tiles six">
+      <a class="site-tile" href="#"><div class="pic"><img src="../assets/img/site-atm.png" alt="Банкоматы Hyosung"></div><b>Банкоматы Hyosung</b></a>
+      <a class="site-tile" href="#"><div class="pic"><img src="../assets/img/site-kub.png" alt="Светодиодные кубы"></div><b>Светодиодные кубы</b></a>
+      <a class="site-tile" href="#"><div class="pic"><img src="../assets/img/site-charging.png" alt="Зарядные станции"></div><b>Зарядные станции</b></a>
+      <a class="site-tile" href="service.html"><div class="pic"><img src="../assets/img/ricoh.jpg" alt="Заправка картриджей"></div><b>Заправка картриджей</b></a>
+      <a class="site-tile new" href="category.html"><div class="pic"><img src="../assets/img/pudu-cc1.png" alt="Роботы-уборщики"></div><b>Роботы-уборщики</b></a>
+      <a class="site-tile new" href="#"><div class="pic"><img src="../assets/img/led-plenka.jpg" alt="LED-плёнки"></div><b>LED-плёнки</b></a>
+    </div>
+    <a class="site-btn" href="#">Весь каталог</a>
   </div>
 </section>
 
@@ -193,7 +177,7 @@
 </section>
 
 <!-- Проекты -->
-<section class="section blk" id="cases" data-tag="mix" data-label="Существующий блок (страница «Проекты» сейчас отдаёт 404), переработан: кейсы карточками с объектом, задачей и результатом (tnvst, interid, gtlamp, signsystem: кейсы у 6 из 8 сайтов роботов и 7 из 8 в LED)">
+<section class="section blk" id="cases" data-tag="res" data-label="Новый блок: по результатам исследования. Кейсы карточками с объектом, задачей и результатом; страница «Проекты» сейчас отдаёт 404 (robort, gtlamp, bigdisplay, igobopro)">
   <div class="container">
     <div class="section-head">
       <div><span class="eyebrow">Проекты</span><h2>Что уже сделали для банков, ритейла и торговых центров</h2><p>Кейсы в прототипе собраны из материалов сайта и пресс-центра; цифры результата заполняются клиентом.</p></div>
@@ -205,9 +189,52 @@
       <div class="offer"><div class="pic"><img src="../assets/img/pudu-day.jpg" alt=""><span class="chip">Робот-уборщик</span></div><div class="body"><h3>Pudu CC1 в бизнес-центре</h3><p>Ночная мойка 4 000 м² и тихая протирка днём, персонал переведён на сложные участки. <span class="fill">объект и экономия</span></p></div></div>
       <div class="offer"><div class="pic"><img src="../assets/img/advantages.png" alt=""><span class="chip">Сервис</span></div><div class="body"><h3>Сервис POS-терминалов Сбера в 44 городах</h3><p>Обслуживание терминальной сети как сервисный партнёр, 5 000 заявок ежедневно.</p></div></div>
     </div>
-    <div class="brand-strip" style="margin-top:22px">
-      <img src="../assets/img/partner-Alfa-Bank.svg.png" alt="Альфа-Банк"><img src="../assets/img/partner-T-Bank_RU_logo.svg.png" alt="Т-Банк"><img src="../assets/img/partner-Gazprom_Neft_Logo.png" alt="Газпром нефть"><img src="../assets/img/partner-PSB_logo.png" alt="ПСБ"><img src="../assets/img/partner-MegaFon.png" alt="МегаФон"><img src="../assets/img/partner-Otp_bank_Logo.svg.png" alt="ОТП Банк"><img src="../assets/img/partner-Ak_Bars_Bank_Logo.svg.png" alt="Ак Барс"><img src="../assets/img/partner-VimpelCom_logo.png" alt="Билайн"><img src="../assets/img/partner-1200px-Bank_ZENIT.png" alt="Зенит"><img src="../assets/img/partner-Hyosung-TNS.png" alt="Hyosung">
+  </div>
+</section>
+
+<!-- Пресс-центр: как на сайте -->
+<section class="site-dark site-sec blk" id="news" data-tag="old" data-label="Существующий блок сохранён без изменений: «Пресс-центр», две последние новости, кнопка «Все новости»">
+  <div class="container">
+    <h2>Пресс-центр</h2>
+    <div class="site-news">
+      <div><div class="d">16<small>сентября</small></div><h3><a href="#">Экспортный потенциал и международная технологическая кооперация</a></h3></div>
+      <div><div class="d">15<small>сентября</small></div><h3><a href="#">От автоматизации склада к качеству сервиса</a></h3></div>
     </div>
+    <a class="site-btn" href="#">Все новости</a>
+  </div>
+</section>
+
+<!-- Партнёры: как на сайте -->
+<section class="site-sec light blk" id="partners" data-tag="old" data-label="Существующий блок сохранён: «Партнёры», карусель из 55 логотипов банков и вендоров (в прототипе показаны сеткой)" style="background:#fff">
+  <div class="container">
+    <h2>Партнеры</h2>
+    <div class="site-partners">
+      <img src="../assets/img/partners/1200px-Bank_ZENIT.png" alt="">
+      <img src="../assets/img/partners/1Bristol-480x300.png" alt="">
+      <img src="../assets/img/partners/7ye0a.png" alt="">
+      <img src="../assets/img/partners/Ak_Bars_Bank_Logo.svg.png" alt="">
+      <img src="../assets/img/partners/Alfa-Bank.svg.png" alt="">
+      <img src="../assets/img/partners/Aver-65fc4002645c0.jpg" alt="">
+      <img src="../assets/img/partners/FEITIAN.png" alt="">
+      <img src="../assets/img/partners/Federalpkrzd.png" alt="">
+      <img src="../assets/img/partners/Gazprom_Neft_Logo.png" alt="">
+      <img src="../assets/img/partners/Hyosung-TNS.png" alt="">
+      <img src="../assets/img/partners/Logo_АТБ.svg.png" alt="">
+      <img src="../assets/img/partners/MegaFon.png" alt="">
+      <img src="../assets/img/partners/Otp_bank_Logo.svg.png" alt="">
+      <img src="../assets/img/partners/PAO-AKB-Absolyut-Bank.png" alt="">
+      <img src="../assets/img/partners/PSB_logo.png" alt="">
+      <img src="../assets/img/partners/SinaraBank.png" alt="">
+      <img src="../assets/img/partners/T-Bank_RU_logo.svg.png" alt="">
+      <img src="../assets/img/partners/URB_LG_1.png" alt="">
+      <img src="../assets/img/partners/Uralskij-bank.png" alt="">
+      <img src="../assets/img/partners/VimpelCom_logo.png" alt="">
+      <img src="../assets/img/partners/aCassida_.png" alt="">
+      <img src="../assets/img/partners/bank-agropromkredit.png" alt="">
+      <img src="../assets/img/partners/bks.jpg" alt="">
+      <img src="../assets/img/partners/dv.png" alt="">
+    </div>
+    <p class="muted small" style="margin-top:14px">На сайте логотипы крутятся в карусели по четыре, всего 55. Здесь показаны 24, остальные в папке assets/img/partners.</p>
   </div>
 </section>
 
@@ -231,8 +258,40 @@
   </div>
 </section>
 
-<!-- География и контакты -->
-<section class="section blk" id="geo" data-tag="mix" data-label="Существующий блок («Наши контакты» и список отделений на странице «Контакты»), переработан: карта, ближайший офис, режим, как оставить заявку (copygroup, complace: города и адреса на главной)">
+<!-- Вопросы -->
+<section class="section blk" id="faq" data-tag="res" data-label="Новый блок: по результатам исследования. Вопросы перед заказом с разметкой FAQPage (copygroup, kiit, gtlamp, bigdisplay: FAQ на 7-8 сайтах каждой ниши)">
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Вопросы и ответы</span><h2>Что спрашивают перед заказом</h2></div></div>
+    <div class="faq-2">
+      <div class="faq">
+        <details open><summary>Сколько стоит робот-уборщик и почему нет цены на сайте?</summary><div class="a">Стоимость зависит от модели, комплектации и дополнительного оборудования: док-станции, мобильного бака, модуля для ковров. Ориентир «от» по каждой модели указан в каталоге, точную сумму даёт коммерческое предложение после уточнения площади и типа покрытия.</div></details>
+        <details><summary>Можно ли посмотреть технику до покупки?</summary><div class="a">Да, возможна демонстрация или тестовый запуск робота на объекте заказчика, условия согласовываются индивидуально. По LED-плёнке высылаем образец с нужным шагом пикселя.</div></details>
+        <details><summary>Кто выполняет монтаж и пусконаладку?</summary><div class="a">Сервисная служба АТМ Альянс: карта помещения, маршруты и расписание, обучение персонала. Для LED-плёнки замер, монтаж с внутренней стороны остекления и настройка платформы управления контентом.</div></details>
+      </div>
+      <div class="faq">
+        <details><summary>Работаете ли с бюджетными организациями и по 44-ФЗ?</summary><div class="a">Да, работаем по договору с полным пакетом закрывающих документов, участвуем в закупках. <span class="fill">уточнить условия</span></div></details>
+        <details><summary>Есть ли доставка в регионы?</summary><div class="a">Поставка выполняется через сеть из 75 офисов и складов, включая Санкт-Петербург, Екатеринбург, Казань, Ростов-на-Дону, Краснодар, Уфу, Челябинск, Омск и Тюмень. Монтаж и обслуживание выполняют инженеры ближайшего офиса.</div></details>
+        <details><summary>Какая гарантия и что с обслуживанием после покупки?</summary><div class="a">Гарантия производителя на всё оборудование. Плановое обслуживание, расходные материалы и запасные части обеспечивает сервисная служба, запчасти хранятся на складе.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Наши контакты: как на сайте -->
+<section class="site-dark site-sec site-contacts blk" id="contacts" data-tag="old" data-label="Существующий блок сохранён без изменений: «Наши контакты», почта, телефон, кнопки «Все филиалы», «Оставить обращение», «Обращение в службу безопасности», меню">
+  <div class="bg"></div>
+  <div class="container">
+    <h2>Наши контакты</h2>
+    <a class="mail" href="mailto:sales@atm72.ru">sales@atm72.ru</a>
+    <a class="tel" href="tel:88002006232">+7 800 200 62 32</a>
+    <div class="btns"><a class="site-btn" href="#geo">Все филиалы</a><a class="site-btn" href="#" data-ask data-ask-title="Оставить обращение" data-ask-sub="Ответим в течение рабочего дня">Оставить обращение</a><a class="site-btn" href="#">Обращение в службу безопасности ГК АТМ АЛЬЯНС</a></div>
+    <p class="note">Если вы столкнулись с нарушением или подозрительной ситуацией, вы можете напрямую направить обращение в службу безопасности группы компаний АТМ АЛЬЯНС через форму обратной связи.</p>
+    <div class="menu"><a href="#">Компания</a><a href="#">Руководство</a><a href="#">Брендбук</a><a href="#">Закупки</a><a href="#">Документы</a><a href="#">Проекты</a><a href="#">Вакансии</a><a href="#">Услуги</a><a href="#">Продукция</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Контакты</a><a href="#">Стать партнером</a></div>
+  </div>
+</section>
+
+<!-- Карта и офисы -->
+<section class="section blk" id="geo" data-tag="res" data-label="Новый блок: по результатам исследования. Карта, головной офис, сервисный центр в Тюмени, единый номер, ближайшие города (karex: контакты с картой; copygroup, complace: адреса на главной)">
   <div class="container">
     <div class="section-head">
       <div><span class="eyebrow">Офисы и сервис</span><h2>75 офисов по России, головной в Москве, сервисный центр в Тюмени</h2></div>
@@ -257,39 +316,8 @@
   </div>
 </section>
 
-<!-- Вопросы -->
-<section class="section blk" id="faq" data-tag="res" data-label="Новый блок: по результатам исследования. Вопросы перед заказом с разметкой FAQPage (copygroup, kiit, gtlamp, bigdisplay: FAQ на 7-8 сайтах каждой ниши)" style="background:var(--surface);border-top:1px solid var(--line)">
-  <div class="container">
-    <div class="section-head"><div><span class="eyebrow">Вопросы и ответы</span><h2>Что спрашивают перед заказом</h2></div></div>
-    <div class="faq-2">
-      <div class="faq">
-        <details open><summary>Сколько стоит робот-уборщик и почему нет цены на сайте?</summary><div class="a">Стоимость зависит от модели, комплектации и дополнительного оборудования: док-станции, мобильного бака, модуля для ковров. Ориентир «от» по каждой модели указан в каталоге, точную сумму даёт коммерческое предложение после уточнения площади и типа покрытия.</div></details>
-        <details><summary>Можно ли посмотреть технику до покупки?</summary><div class="a">Да, возможна демонстрация или тестовый запуск робота на объекте заказчика, условия согласовываются индивидуально. По LED-плёнке высылаем образец с нужным шагом пикселя.</div></details>
-        <details><summary>Кто выполняет монтаж и пусконаладку?</summary><div class="a">Сервисная служба АТМ Альянс: карта помещения, маршруты и расписание, обучение персонала. Для LED-плёнки замер, монтаж с внутренней стороны остекления и настройка платформы управления контентом.</div></details>
-      </div>
-      <div class="faq">
-        <details><summary>Работаете ли с бюджетными организациями и по 44-ФЗ?</summary><div class="a">Да, работаем по договору с полным пакетом закрывающих документов, участвуем в закупках. <span class="fill">уточнить условия</span></div></details>
-        <details><summary>Есть ли доставка в регионы?</summary><div class="a">Поставка выполняется через сеть из 75 офисов и складов, включая Санкт-Петербург, Екатеринбург, Казань, Ростов-на-Дону, Краснодар, Уфу, Челябинск, Омск и Тюмень. Монтаж и обслуживание выполняют инженеры ближайшего офиса.</div></details>
-        <details><summary>Какая гарантия и что с обслуживанием после покупки?</summary><div class="a">Гарантия производителя на всё оборудование. Плановое обслуживание, расходные материалы и запасные части обеспечивает сервисная служба, запчасти хранятся на складе.</div></details>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Пресс-центр -->
-<section class="section blk" id="news" data-tag="old" data-label="Существующий блок: пресс-центр и «Мы в СМИ», оставлен, сокращён до трёх карточек">
-  <div class="container">
-    <div class="section-head"><div><span class="eyebrow">Пресс-центр</span><h2>Новости и публикации</h2></div><a class="btn btn-outline" href="#">Все новости</a></div>
-    <div class="offer-grid three">
-      <div class="offer"><div class="pic"><img src="../assets/img/kuby-cover.png" alt=""><span class="chip">Новость</span></div><div class="body"><h3>Светодиодные кубы собственного производства</h3><p>Сборка конструкций на площадке АТМ Альянс, стандартные размеры 320 и 480 мм.</p></div></div>
-      <div class="offer"><div class="pic"><img src="../assets/img/ricoh.jpg" alt=""><span class="chip">Новость</span></div><div class="body"><h3>Партнёрство с RICOH</h3><p>Поставка и обслуживание печатной техники, заправка картриджей серии SP.</p></div></div>
-      <div class="offer"><div class="pic"><img src="../assets/img/keenon-cut.jpg" alt=""><span class="chip">СМИ</span></div><div class="body"><h3>Роботы-уборщики Keenon в России</h3><p>Публикации о внедрении роботизированной уборки на коммерческих объектах.</p></div></div>
-    </div>
-  </div>
-</section>
-
 <!-- Заявка -->
-<section class="section blk" id="ask" data-tag="res" data-label="Новый блок: по результатам исследования. Подбор оборудования с менеджером и мессенджеры вместо «обратного звонка» (qubot, tnvst, copygroup)">
+<section class="section blk" id="ask" data-tag="res" data-label="Новый блок: по результатам исследования. Подбор оборудования с менеджером и мессенджеры вместо «обратного звонка» (qubot, tnvst, copygroup)" style="background:var(--surface);border-top:1px solid var(--line)">
   <div class="container">
     <div class="calc">
       <div>
@@ -313,19 +341,24 @@
     </div>
   </div>
 </section>
-<footer class="footer blk" data-tag="old" data-label="Существующий блок: подвал с реквизитами и документами, дополнен ссылками на направления и офисы">
+
+<!-- Подвал: как на сайте -->
+<footer class="site-footer blk" data-tag="old" data-label="Существующий блок сохранён без изменений: меню, адреса, ОГРН и ИНН, телефоны, свидетельства, закупки, приложение для инженеров, политика, карта сайта">
   <div class="container">
-    <div class="cols">
-      <div>
-        <img src="../assets/img/logo.svg" alt="АТМ Альянс" style="height:36px;filter:brightness(0) invert(1);margin-bottom:12px">
-        <p>Группа компаний «АТМ Альянс»: производство, поставка и сервис банковского и кассового оборудования, роботы-уборщики, LED-плёнки и медиакубы. Сервисный партнёр Сбера, ТОП-5 поставщиков банковского оборудования России.</p>
-        <p><b style="color:#fff">8 800 200 62 32</b><br>+7 (495) 258 52 72<br>msk@atm72.ru<br>115114, Москва, Дербеневская наб., 11 кА, 4 этаж, оф. 412</p>
-      </div>
-      <div><h4>Каталог</h4><a href="category.html">Роботы-уборщики</a><a href="#">LED-плёнки</a><a href="#">Медиакубы</a><a href="service.html">Заправка картриджей в Тюмени</a><a href="#">Банкоматы Hyosung</a><a href="#">Кассы самообслуживания</a><a href="#">LED-экраны и панели</a></div>
-      <div><h4>Компания</h4><a href="#">О компании</a><a href="#">Сервисный центр</a><a href="#">Проекты и кейсы</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Стать партнёром</a><a href="#">Контакты и 75 офисов</a></div>
-      <div><h4>Документы</h4><a href="#">Реквизиты: ОГРН 1087232042259, ИНН 7204129189</a><a href="#">Сертификаты и свидетельства</a><a href="#">Брендбук</a><a href="#">Закупки</a><a href="#">Политика обработки персональных данных</a><a href="#">Карта сайта</a></div>
+    <div class="links" style="margin:0 0 22px;font-size:13px"><a href="#">Компания</a><a href="#">Услуги</a><a href="#">Продукция</a><a href="#">Пресс-центр</a><a href="#">Дочерние общества</a><a href="#">Контакты</a><a href="#">Стать партнером</a></div>
+    <div class="rows">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Головной офис: 115114, г. Москва, ул. Дербеневская набережная, д. 11 кА, 4 этаж, 412 оф. пн-пт: 09:00-18:00</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Юридический адрес: 123458 г. Москва ул. Твардовского д. 14 корп. 3 помещение VI ком. 2 этаж 1.<br>ОГРН 1087232042259<br>ИНН 7204129189</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.8 2z"/></svg><span>+7 800 200 62 32 (многоканальный)<br>+7 (495) 258 52 72</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span>msk@atm72.ru</span></div>
     </div>
-    <div class="bottom"><span>ООО «АТМ Альянс», 2008-2026</span><span>Прототип. Цены «от», сроки и оценки, помеченные оранжевым, условные. <a href="../rationale.html" style="display:inline;padding:0;color:#fff;text-decoration:underline">Почему эти блоки: обоснование</a></span></div>
+    <div class="bottom">
+      <img src="../assets/img/logo.svg" alt="АТМ Альянс">
+      <span>© АТМ АЛЬЯНС, Свидетельство на товарный знак, Свидетельство ТПП, Свидетельство МЧС, Отчет СОУТ</span>
+      <a class="site-btn" href="#" style="padding:8px 14px;font-size:12px">Закупки АТМ АЛЬЯНС</a>
+      <span>Приложение для инженеров</span>
+    </div>
+    <div class="links"><a href="#">Политика конфиденциальности</a><a href="#">Согласие на обработку персональных данных</a><a href="#">Карта сайта</a><a href="../rationale.html" style="color:#fff;text-decoration:underline">Прототип: почему эти блоки</a></div>
   </div>
 </footer>
 
