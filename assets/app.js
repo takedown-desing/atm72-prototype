@@ -140,3 +140,43 @@
     if (a.getAttribute('href').split('/').pop() === path) a.classList.add('active');
   });
 })();
+
+/* Фильтр по оборудованию: панель [data-fpanel="#grid"] с чекбоксами data-key/value; карточка подходит, если по каждому выбранному ключу есть пересечение значений */
+(function(){
+  var d=document;
+  function qsa(s,r){return Array.prototype.slice.call((r||d).querySelectorAll(s));}
+  qsa('[data-fpanel]').forEach(function(panel){
+    var grid=d.querySelector(panel.getAttribute('data-fpanel')); if(!grid) return;
+    var cards=qsa('.pcard[data-niche], .pcard[data-type]',grid);
+    var cnt=panel.querySelector('[data-count]'); var sort=panel.querySelector('[data-sort]');
+    function apply(){
+      var sel={};
+      qsa('input[type=checkbox][data-key]',panel).forEach(function(i){
+        i.parentNode.classList.toggle('on',i.checked);
+        if(i.checked){(sel[i.getAttribute('data-key')]=sel[i.getAttribute('data-key')]||[]).push(i.value);}
+      });
+      var n=0;
+      var tabwrap=d.querySelector('[data-tabs="'+panel.getAttribute('data-fpanel')+'"]');
+      var act=tabwrap&&tabwrap.querySelector('.active'); var tf=act?act.getAttribute('data-filter'):'all';
+      cards.forEach(function(c){
+        c.style.display='';
+        var ok=(tf==='all'||(c.getAttribute('data-niche')||'').split(' ').indexOf(tf)>=0)&&Object.keys(sel).every(function(k){
+          var v=(c.getAttribute('data-'+k)||'').split(' ');
+          return sel[k].some(function(x){return v.indexOf(x)>=0;});
+        });
+        c.classList.toggle('hide',!ok); if(ok) n++;
+      });
+      if(cnt) cnt.textContent=n;
+      if(sort&&sort.value!=='default'){
+        var key=sort.value; var arr=cards.slice().sort(function(a,b){
+          var x=parseFloat(a.getAttribute('data-'+key)||'0'), y=parseFloat(b.getAttribute('data-'+key)||'0'); return y-x;});
+        arr.forEach(function(c){grid.appendChild(c);});
+      }
+    }
+    qsa('input[type=checkbox][data-key]',panel).forEach(function(i){i.addEventListener('change',apply);});
+    if(sort) sort.addEventListener('change',apply);
+    var tw=d.querySelector('[data-tabs="'+panel.getAttribute('data-fpanel')+'"]'); if(tw) qsa('a',tw).forEach(function(a){a.addEventListener('click',function(){setTimeout(apply,0);});});
+    var reset=panel.querySelector('[data-reset]'); if(reset) reset.addEventListener('click',function(e){e.preventDefault(); qsa('input[type=checkbox]',panel).forEach(function(i){i.checked=false;}); if(sort) sort.value='default'; apply();});
+    apply();
+  });
+})();
