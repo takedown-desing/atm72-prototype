@@ -1,0 +1,37 @@
+{
+ "Сервис банкоматов и POS": [
+  "sberbank-service.ru",
+  "ruswayatm.ru",
+  "hendz.ru",
+  "atm.osphere.ru",
+  "stk-tele.com",
+  "veles-ss.ru",
+  "indemit.com",
+  "hsrus.ru",
+  "absservice.pro"
+ ],
+ "Сервис ККТ и оргтехники": [
+  "taxcom-kassa.ru",
+  "hashdesk.ru",
+  "strana-kass.ru",
+  "kkm-trade.com",
+  "moskas.ru",
+  "wowworks.ru",
+  "tensor.ru",
+  "atol.ru"
+ ],
+ "Банковское оборудование": [
+  "bfs.su",
+  "bansys.ru",
+  "delta-systems.ru",
+  "deep2000.ru",
+  "kiosk-factory.ru"
+ ],
+ "Кассы, ТСД, LED, очередь": [
+  "intechirs.ru",
+  "smartcode.ru",
+  "profidex.ru",
+  "mertech.ru",
+  "atmmachines.ru"
+ ]
+}

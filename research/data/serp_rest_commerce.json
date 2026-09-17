@@ -1,0 +1,290 @@
+{
+ "обслуживание банкоматов": {
+  "query": "обслуживание банкоматов",
+  "localization": 10,
+  "geo": true,
+  "commerce": 72
+ },
+ "обслуживание клиентов в банкоматах": {
+  "query": "обслуживание клиентов в банкоматах",
+  "localization": 0,
+  "geo": false,
+  "commerce": 22
+ },
+ "банкоматы с бесконтактным обслуживанием": {
+  "query": "банкоматы с бесконтактным обслуживанием",
+  "localization": 10,
+  "geo": true,
+  "commerce": 16
+ },
+ "ремонт банкоматов": {
+  "query": "ремонт банкоматов",
+  "localization": 20,
+  "geo": true,
+  "commerce": 73
+ },
+ "инженер по ремонту банкоматов": {
+  "query": "инженер по ремонту банкоматов",
+  "localization": 50,
+  "geo": true,
+  "commerce": 38
+ },
+ "сервис банкоматов": {
+  "query": "сервис банкоматов",
+  "localization": 10,
+  "geo": true,
+  "commerce": 65
+ },
+ "сервис карта банкоматов": {
+  "query": "сервис карта банкоматов",
+  "localization": 30,
+  "geo": true,
+  "commerce": 29
+ },
+ "банкомат информация и сервисы": {
+  "query": "банкомат информация и сервисы",
+  "localization": 0,
+  "geo": false,
+  "commerce": 15
+ },
+ "обслуживание pos терминалов": {
+  "query": "обслуживание pos терминалов",
+  "localization": 10,
+  "geo": true,
+  "commerce": 95
+ },
+ "специалист по обслуживанию pos терминалов": {
+  "query": "специалист по обслуживанию pos терминалов",
+  "localization": 50,
+  "geo": true,
+  "commerce": 39
+ },
+ "выездной инженер по обслуживанию pos терминалов": {
+  "query": "выездной инженер по обслуживанию pos терминалов",
+  "localization": 60,
+  "geo": true,
+  "commerce": 52
+ },
+ "ремонт pos терминалов": {
+  "query": "ремонт pos терминалов",
+  "localization": 70,
+  "geo": true,
+  "commerce": 94
+ },
+ "обслуживание кассового оборудования": {
+  "query": "обслуживание кассового оборудования",
+  "localization": 40,
+  "geo": true,
+  "commerce": 71
+ },
+ "ремонт ккт": {
+  "query": "ремонт ккт",
+  "localization": 40,
+  "geo": true,
+  "commerce": 88
+ },
+ "обслуживание ремонт ккт": {
+  "query": "обслуживание ремонт ккт",
+  "localization": 10,
+  "geo": true,
+  "commerce": 82
+ },
+ "техническое обслуживание и ремонт ккт": {
+  "query": "техническое обслуживание и ремонт ккт",
+  "localization": 20,
+  "geo": true,
+  "commerce": 100
+ },
+ "ремонт и продажа ккт": {
+  "query": "ремонт и продажа ккт",
+  "localization": 40,
+  "geo": true,
+  "commerce": 85
+ },
+ "банкомат hyosung": {
+  "query": "банкомат hyosung",
+  "localization": 10,
+  "geo": true,
+  "commerce": 80
+ },
+ "банкоматы nautilus hyosung": {
+  "query": "банкоматы nautilus hyosung",
+  "localization": 10,
+  "geo": true,
+  "commerce": 56
+ },
+ "перезагрузка банкомата nautilus hyosung": {
+  "query": "перезагрузка банкомата nautilus hyosung",
+  "localization": 20,
+  "geo": true,
+  "commerce": 10
+ },
+ "клининг банкоматов": {
+  "query": "клининг банкоматов",
+  "localization": 40,
+  "geo": true,
+  "commerce": 63
+ },
+ "утилизация банкоматов": {
+  "query": "утилизация банкоматов",
+  "localization": 80,
+  "geo": true,
+  "commerce": 93
+ },
+ "перевозка банкоматов": {
+  "query": "перевозка банкоматов",
+  "localization": 100,
+  "geo": true,
+  "commerce": 100
+ },
+ "электронная очередь купить": {
+  "query": "электронная очередь купить",
+  "localization": 30,
+  "geo": true,
+  "commerce": 91
+ },
+ "терминал электронной очереди купить": {
+  "query": "терминал электронной очереди купить",
+  "localization": 20,
+  "geo": true,
+  "commerce": 86
+ },
+ "система электронной очереди купить": {
+  "query": "система электронной очереди купить",
+  "localization": 10,
+  "geo": true,
+  "commerce": 84
+ },
+ "электронная очередь купить оборудование": {
+  "query": "электронная очередь купить оборудование",
+  "localization": 10,
+  "geo": true,
+  "commerce": 91
+ },
+ "вес банкомата": {
+  "query": "вес банкомата",
+  "localization": 0,
+  "geo": false,
+  "commerce": 27
+ },
+ "средний вес банкомата": {
+  "query": "средний вес банкомата",
+  "localization": 0,
+  "geo": false,
+  "commerce": 47
+ },
+ "инженер по обслуживанию банкоматов": {
+  "query": "инженер по обслуживанию банкоматов",
+  "localization": 80,
+  "geo": true,
+  "commerce": 27
+ },
+ "терминал сбора данных купить": {
+  "query": "терминал сбора данных купить",
+  "localization": 29,
+  "geo": true,
+  "commerce": 100
+ },
+ "терминал сбора данных urovo купить": {
+  "query": "терминал сбора данных urovo купить",
+  "localization": 20,
+  "geo": true,
+  "commerce": 100
+ },
+ "тсд терминал сбора данных купить": {
+  "query": "тсд терминал сбора данных купить",
+  "localization": 43,
+  "geo": true,
+  "commerce": 100
+ },
+ "терминал сбора данных urovo dt40 купить": {
+  "query": "терминал сбора данных urovo dt40 купить",
+  "localization": 17,
+  "geo": true,
+  "commerce": 83
+ },
+ "терминал сбора данных для 1с купить": {
+  "query": "терминал сбора данных для 1с купить",
+  "localization": 63,
+  "geo": true,
+  "commerce": 87
+ },
+ "купить бу терминал сбора данных": {
+  "query": "купить бу терминал сбора данных",
+  "localization": 30,
+  "geo": true,
+  "commerce": 88
+ },
+ "led экран купить": {
+  "query": "led экран купить",
+  "localization": 70,
+  "geo": true,
+  "commerce": 92
+ },
+ "купить led экран для рекламы": {
+  "query": "купить led экран для рекламы",
+  "localization": 50,
+  "geo": true,
+  "commerce": 100
+ },
+ "уличные led экраны купить": {
+  "query": "уличные led экраны купить",
+  "localization": 60,
+  "geo": true,
+  "commerce": 93
+ },
+ "гибкий led экран купить": {
+  "query": "гибкий led экран купить",
+  "localization": 30,
+  "geo": true,
+  "commerce": 99
+ },
+ "куплю led светодиодный экран": {
+  "query": "куплю led светодиодный экран",
+  "localization": 70,
+  "geo": true,
+  "commerce": 100
+ },
+ "led экран купить в спб": {
+  "query": "led экран купить в спб",
+  "localization": 44,
+  "geo": false,
+  "commerce": 100
+ },
+ "банкомат hyosung mx8600s": {
+  "query": "банкомат hyosung mx8600s",
+  "localization": 0,
+  "geo": false,
+  "commerce": 70
+ },
+ "hyosung monimax 8600s": {
+  "query": "hyosung monimax 8600s",
+  "localization": 0,
+  "geo": false,
+  "commerce": 70
+ },
+ "купить банкомат hyosung": {
+  "query": "купить банкомат hyosung",
+  "localization": 20,
+  "geo": true,
+  "commerce": 88
+ },
+ "размеры банкомата": {
+  "query": "размеры банкомата",
+  "localization": 10,
+  "geo": true,
+  "commerce": 51
+ },
+ "сколько весит банкомат": {
+  "query": "сколько весит банкомат",
+  "localization": 0,
+  "geo": false,
+  "commerce": 56
+ },
+ "производство банкоматов в россии": {
+  "query": "производство банкоматов в россии",
+  "localization": 30,
+  "geo": true,
+  "commerce": 37
+ }
+}
