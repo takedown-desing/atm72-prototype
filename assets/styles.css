@@ -710,3 +710,10 @@ p{margin:0 0 12px}
 .site-footer .links a{color:#9aa6b2}
 @media (max-width:1000px){.site-tiles,.site-tiles.six{grid-template-columns:repeat(3,1fr)}.site-partners{grid-template-columns:repeat(4,1fr)}.site-hdr .nav{display:none}}
 @media (max-width:720px){.site-tiles,.site-tiles.six{grid-template-columns:repeat(2,1fr)}.site-news{grid-template-columns:1fr}.site-contacts .bg{display:none}.site-hdr .cnt{display:none}.site-fab{display:none}.site-hero{min-height:520px}.site-partners{grid-template-columns:repeat(3,1fr)}}
+
+/* ===== Токены под текущий дизайн atm72.ru (шрифт и радиусы как в шаблоне сайта и макетах публикации) ===== */
+:root{--font-h:-apple-system,BlinkMacSystemFont,"Montserrat",Roboto,"Helvetica Neue",Arial,sans-serif;--font-b:-apple-system,BlinkMacSystemFont,"Montserrat",Roboto,"Helvetica Neue",Arial,sans-serif;--brand:#f63839;--brand-dark:#d5001c;--brand-soft:#fdeeee;--navy:#0b1225;--navy-2:#16224a;--bg:#ffffff;--surface:#ffffff;--surface-2:#f9f9f9;--line:#e6e8ec;--line-2:#d3dae6;--ink:#161616;--ink-2:#333a42;--muted:#6c757d;--radius:14px;--radius-s:8px}
+.btn{font-weight:700}
+.btn-primary{background:var(--brand)}
+.btn-primary:hover{background:var(--brand-dark)}
+h1,h2,h3{font-weight:800}
